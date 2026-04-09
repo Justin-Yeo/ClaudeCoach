@@ -1,0 +1,154 @@
+{
+  "name": "submit_coaching",
+  "description": "Submit your coaching analysis for the just-completed run. Call this tool exactly once. Do not respond in free text — the tool call IS your response.",
+  "input_schema": {
+    "type": "object",
+    "required": [
+      "run_type",
+      "load_rating",
+      "flags",
+      "post_run_review",
+      "next_session"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "run_type": {
+        "type": "string",
+        "enum": ["easy", "long", "tempo", "intervals", "recovery", "race"],
+        "description": "Classify this run from the fixed taxonomy. Infer from pace, HR distribution, and structure."
+      },
+      "load_rating": {
+        "type": "string",
+        "enum": ["easy", "moderate", "hard", "very_hard"],
+        "description": "Overall stress of this run, accounting for duration, intensity, terrain, and recent fatigue."
+      },
+      "flags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "maxItems": 6,
+        "description": "Short concern strings worth flagging. Empty array if nothing notable. Examples: 'high cardiac drift', 'pace fade km6+', 'HR ceiling reached', '3rd hard session this week'."
+      },
+      "post_run_review": {
+        "type": "object",
+        "required": ["run_summary", "went_well", "to_watch", "digest"],
+        "additionalProperties": false,
+        "properties": {
+          "run_summary": {
+            "type": "string",
+            "minLength": 30,
+            "maxLength": 600,
+            "description": "Factual recap of the run: distance, pace, HR distribution, elevation, anything notable. 2–4 sentences. Plain text, no markdown."
+          },
+          "went_well": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 500,
+            "description": "What the runner did well. Pacing, HR control, executing the planned workout, building from a previous run, etc. 2–4 sentences. Plain text."
+          },
+          "to_watch": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 500,
+            "description": "Concerns: fatigue accumulation, HR drift, positive splits, overreach signals, injury risk indicators. 2–4 sentences. If there are no concerns, write a short 'nothing to flag' note. Plain text."
+          },
+          "digest": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 140,
+            "description": "Single-sentence summary suitable for the /history one-line view. Combines the most important insight from went_well and to_watch."
+          }
+        }
+      },
+      "next_session": {
+        "type": "object",
+        "required": [
+          "type",
+          "scheduled_date",
+          "scheduled_day_label",
+          "relative_offset_days",
+          "distance_km",
+          "target_pace_min_km",
+          "target_pace_label",
+          "target_hr_zone",
+          "workout"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["easy", "long", "tempo", "intervals", "recovery", "race"]
+          },
+          "scheduled_date": {
+            "type": "string",
+            "format": "date",
+            "description": "ISO date (YYYY-MM-DD) in the runner's local timezone. MUST be strictly in the future and MUST fall on one of the runner's available_days."
+          },
+          "scheduled_day_label": {
+            "type": "string",
+            "enum": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+            "description": "Three-letter day label matching scheduled_date."
+          },
+          "relative_offset_days": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 14,
+            "description": "Number of days from today to scheduled_date. e.g. 3 = 'in 3 days'."
+          },
+          "distance_km": {
+            "type": "number",
+            "minimum": 1.0,
+            "maximum": 50.0,
+            "description": "Total session distance in km, including warmup and cooldown."
+          },
+          "target_pace_min_km": {
+            "type": "number",
+            "minimum": 2.5,
+            "maximum": 9.0,
+            "description": "Target average pace for the main effort, in minutes per km (float). e.g. 4.5 = 4:30/km."
+          },
+          "target_pace_label": {
+            "type": "string",
+            "pattern": "^\\d{1,2}:\\d{2}/km(–\\d{1,2}:\\d{2}/km)?$",
+            "description": "Display string for the pace, e.g. '4:30/km' or a range like '4:25/km–4:35/km'. Renders directly in the Telegram message."
+          },
+          "target_hr_zone": {
+            "type": "string",
+            "enum": ["Z1", "Z2", "Z3", "Z4", "Z5", "Z2-Z3", "Z3-Z4", "Z4-Z5"],
+            "description": "Target HR zone for the main effort. Use a range (e.g. 'Z2-Z3') if the workout spans zones."
+          },
+          "workout": {
+            "type": "object",
+            "required": ["warmup", "main", "cooldown"],
+            "additionalProperties": false,
+            "properties": {
+              "warmup": {
+                "type": "string",
+                "maxLength": 120,
+                "description": "Warmup description. e.g. '2km easy @ 6:00/km'. Empty string for easy/recovery runs that have no structured warmup."
+              },
+              "main": {
+                "type": "string",
+                "minLength": 5,
+                "maxLength": 250,
+                "description": "Main effort description. e.g. '6×800m @ 4:00/km w/ 90s jog rest' or '8km easy @ 5:45–6:00/km, Z2'."
+              },
+              "cooldown": {
+                "type": "string",
+                "maxLength": 120,
+                "description": "Cooldown description. e.g. '2km easy @ 6:00/km'. Empty string for easy/recovery runs."
+              }
+            }
+          },
+          "notes": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "Optional freeform note. Use to acknowledge an injury, recent fatigue, or other context that influenced the recommendation. Empty string if not needed."
+          }
+        }
+      }
+    }
+  }
+}
