@@ -1,0 +1,4189 @@
+{
+  "resource_state": 3,
+  "athlete": {
+    "id": 92653540,
+    "resource_state": 1
+  },
+  "name": "Morning Run",
+  "distance": 21470.4,
+  "moving_time": 9191,
+  "elapsed_time": 9389,
+  "total_elevation_gain": 39.0,
+  "type": "Run",
+  "sport_type": "Run",
+  "workout_type": null,
+  "device_name": "Garmin Forerunner 165 Music",
+  "id": 17980873447,
+  "start_date": "2026-04-04T20:36:49Z",
+  "start_date_local": "2026-04-05T04:36:49Z",
+  "timezone": "(GMT+08:00) Asia/Singapore",
+  "utc_offset": 28800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 24,
+  "kudos_count": 5,
+  "comment_count": 0,
+  "athlete_count": 72,
+  "photo_count": 0,
+  "map": {
+    "id": "a17980873447",
+    "polyline": "{m{Fi}|xRe@AyBVc@Be@@qANOFIHEJDj@C\\Wt@SVa@TOVEVMD]AWE_COoAOgAIw@Am@?uAGiC_@W?e@EcAQqAg@c@WWYU_@s@cBuAwEw@_By@qA]c@_BqAwA{@}@Yk@I_AB_ARML_@NCHM@ULkAbAOH_@VCF?FDBLEnCaBF@POVMB@@IFEh@Q`@ITAbAHXFZNjAr@dBxAf@j@`AxA`AdCR|@Xr@Ld@?TEHaAf@a@LMJKX@P^j@P\\b@f@l@rAtBdD|@dApCfCd@v@Td@FXP`@TZZVb@RTPDD?BE?OGgAw@a@o@e@qAm@_As@m@]_@eA{@aAiAk@y@Q_@WYYi@_@e@c@s@UYWc@q@aA_BmCKGUc@qAcBkAmBk@mA{A{BYk@oAwBeDaGo@_A_@y@iAgB[q@cBqCyAkCe@gAg@iBIa@M}@GeACyDG{@AwAEg@McESaAO_@MUc@i@EKAO?MBEFGFCL@j@PTNb@j@D@XQNCXDZJb@F`@?b@CnAYJGDKf@Ox@c@TQTY^m@BAr@NJTn@hBH^Ft@MvADPBJTTTTXNXX~@zAl@dBBF?d@HXDHZPLRx@nD?^FDPDJ?TCDEDQLK~@Sx@_@f@W^e@dAa@l@g@HCb@?FCj@eATo@d@{BTmC@gAE}@Gc@G}AKYAWIWY_@Qc@Yc@g@iAu@cA_AcAk@u@g@e@gAqA[Y[i@cBcBe@_@a@a@QS[k@YYa@UG?KDa@r@IDICo@sCUm@QYY[eAy@g@g@u@c@DMx@w@hAaAVQNEBD@Fu@d@ERQTBPRLfAjAhC~BrArA\\VNPv@TZ\\j@h@\\`@`@Xx@p@LPh@`@JPZZVLd@Zf@p@^^v@n@NNT^t@h@n@t@N^f@l@Z|@j@nAJnAHTLRNr@Hz@L^Bt@MrEGt@IPOjAELKHMTEZUh@K^TtCNp@C^GJOJiARc@PGFGPAn@@JHP@NOTCP@FJ@LAHGDGEw@BGp@_@NCF@RXBCA@?CFH@NVbAJf@D^Nt@Hf@?l@Tz@D|@Av@@NC\\@|@AVD~EEDIDk@FQBIFYr@Ch@Df@J^JPb@^z@X~@Nr@Dv@HnACTBvAAlAIdAQbAI~@S^Q`@Cb@MBQCg@]mBYiDHIPGfAQHOCIWAKGKy@?e@B[FWPe@Be@M{AS}@Is@Uq@Ig@EcAA}@?m@Di@GmBAoAL_@Ta@Lg@L_@DUvCyCl@e@X]HAPDNAt@BJADGTC\\MbACV@rAIxB[`@Mt@OjBu@xAw@\\YhAcA\\UV[zAiAJAb@`@RFZD^ERIhAaA^Wh@UfBg@`BOpA@~@F~A`@nAh@rB`BXj@f@l@dBrCLH\\A^GZ?d@GLMD_@DEFCL@LDTb@PJ@FGRARBLJZ?Fa@x@SV[HIDKTMj@IFI@c@BMFMLMTOLgBlBo@j@QTEL?LBFJ?RUPMr@UfAq@^FnArBpAbBx@nANXTVVb@l@|@Vn@\\FO?EFGDc@HEBGJaAr@QRSLe@No@n@_@d@Uh@w@~@QVAHDFHHVL\\N\\RRPxAp@lAn@PDZNATSf@Mx@KlACb@Dl@@dBBPPZF\\Ad@BHVp@FXXr@j@`Ad@p@v@v@j@d@tC~Av@j@rAn@fGhDdAd@NL@DELg@`AUZ[p@s@fAWl@[h@k@|@i@jAEFC?QEe@[cCkA}A_AaBw@g@[YMWMYK{AIUGc@]m@{@US{@M}@U_@K]QgAM_Cg@o@GcAQuFYY@mACOBCDSpAMn@ILOPEN?F?DB@?P@JEDANSz@?FGNCN?LENMtASt@RFBD\\bAR\\ZVPHz@Ff@Jt@VR@h@Nt@XXR|@^f@\\x@Vt@\\bAr@nBtBx@Xh@\\d@Td@\\pAn@bAn@p@V^XRFFHAVUt@SXk@fAU\\Yn@_@l@i@vAs@bAWb@Y`@]z@MN?JJJJR?PGTm@fAEBi@?c@Qm@_@m@u@USe@[I?]GO@e@RWIu@Ka@O{@Km@[c@MIGAI?gBGMy@Sc@Q}@Sa@Qq@KYK]EGEe@NiCR]@mBKUEcAa@i@W[YK]BOCGC_AFa@?UKq@BWHWFq@BoACa@@c@CWFeAIEw@F_@NYPKCKMEa@H{ABkAFi@AICGAQPyCD}DHi@Cc@BKLGH@^ET?LCXMHMHUFm@ASBa@EsABe@Am@Fs@Am@Ds@@y@GQIEq@BICKIMGc@KSLACUGGKAKIG_ANAG@C@BACC@@?AB@D?IKAONKDSBS?EC",
+    "resource_state": 3,
+    "summary_polyline": "ir{Fw||xR{AHgBZIZBv@Md@[j@e@XUn@MDmIq@{DIwEg@eCw@}@s@gAaCuAwEw@_BwAuB_BqAwA{@iBc@_AB_ARq@f@c@N{BdBCNRAnCaBt@YHO`B]bAHt@VjAr@dBxAhBdC`AdCz@vCE^qB`AKX@PtApBl@rAtBdDnElEjBtDzAfAUGgAw@a@o@e@qAm@_AyEsEsJeOsBoCwYog@c@cAk@uB]}CCyD]_Kc@aBw@kAA]JMTAj@P~@|@h@UxAXdACnAYPS`Bs@j@k@^m@v@LdA~CFt@MvADPX`@hA~@~@zAl@dBLfAn@n@x@nD?^XJ`@CXc@xBs@f@W^e@dAa@l@g@t@G`AuBd@{BTmC@gASwDYqAwBaEwCmDkCqC[i@kDeDm@_A{@o@OBe@t@S@o@sCg@gAgC}Bu@c@DMjC_CXOJDu@j@Wh@BPxHlHl@h@v@TdBhBzAjA~A`B|@h@dDpDt@h@fBbCfAlCJnAVh@f@nCBt@MrEa@rC_@l@g@dBTtCNp@C^WViARk@XI`ALl@Sf@LHVIBgAp@_@VA\\\\z@pE^pCD|@@zKOJgARYr@Ch@Df@Vp@b@^z@XjD^|DAvEe@dDw@?y@]mBYiDZQfAQHOCIc@IKy@BaAX}@Be@M{A}@kEAyEI}Db@aA`@}A~E}E`BDdA[nDKpEy@dEmBxFyEJAv@h@z@?|AkAhAm@fBg@`BOpCH~A`@nAh@rB`BtDvF~BQLMRi@ZFf@n@Gn@Nh@a@`ASVe@NY`Aw@L[TMTgDfDQTEZNFd@c@zBgA^F`GxIdA`BVn@\\FaAVaBvAy@\\oAtAaBjCvBtAtEvBATa@`BKlABvD\\jA@n@^jAXr@pArBbB|AlEjCfLbGJNELaH`MuM}GkC]gBmByBc@}@]{HoAuFYgBASHa@`C_@n@Dl@c@hBWbCSt@VLp@`Bl@`@z@FzCt@tDjBnBt@bAr@nBtBx@XxJtFWlAoC|Ei@vAeBhC]z@MN?JV`@Gd@m@fAc@D[GaAk@m@u@{@o@w@Ee@RkDq@qAi@KQAoBcBk@qEiAe@NiCRkCIyAg@eAq@K]CwAFw@Kq@TaBAmDFeAaA@y@`@WQEa@TqEGc@PyCD}DDmAJQlAGd@YNa@F_B"
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "everyone",
+  "flagged": false,
+  "gear_id": "g21825498",
+  "start_latlng": [
+    1.292627,
+    103.864057
+  ],
+  "end_latlng": [
+    1.29044,
+    103.864144
+  ],
+  "average_speed": 2.336,
+  "max_speed": 4.32,
+  "average_cadence": 85.6,
+  "average_temp": 33,
+  "average_watts": 251.5,
+  "max_watts": 485,
+  "weighted_average_watts": 254,
+  "device_watts": true,
+  "kilojoules": 2309.3,
+  "has_heartrate": true,
+  "average_heartrate": 166.5,
+  "max_heartrate": 189.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 9.2,
+  "elev_low": -3.4,
+  "upload_id": 19081286233,
+  "upload_id_str": "19081286233",
+  "external_id": "garmin_ping_554562698297",
+  "from_accepted_tag": false,
+  "pr_count": 9,
+  "total_photo_count": 0,
+  "has_kudoed": false,
+  "description": "",
+  "calories": 1700.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "segment_efforts": [
+    {
+      "id": 3475668363907058296,
+      "resource_state": 2,
+      "name": "2XU Compression Run 2026 (21km)",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 9065,
+      "moving_time": 8985,
+      "start_date": "2026-04-04T20:36:51Z",
+      "start_date_local": "2026-04-05T04:36:51Z",
+      "distance": 21150.7,
+      "start_index": 2,
+      "end_index": 9067,
+      "average_cadence": 85.3,
+      "device_watts": true,
+      "average_watts": 253.4,
+      "average_heartrate": 166.5,
+      "max_heartrate": 189.0,
+      "segment": {
+        "id": 41174018,
+        "resource_state": 2,
+        "name": "2XU Compression Run 2026 (21km)",
+        "activity_type": "Run",
+        "distance": 21150.7,
+        "average_grade": -0.0,
+        "maximum_grade": 8.5,
+        "elevation_high": 11.0,
+        "elevation_low": -1.4,
+        "start_latlng": [
+          1.292656,
+          103.864051
+        ],
+        "end_latlng": [
+          1.288683,
+          103.863903
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "only_me",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343995676,
+      "resource_state": 2,
+      "name": "Nicoll Hwy",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 550,
+      "moving_time": 550,
+      "start_date": "2026-04-04T20:49:48Z",
+      "start_date_local": "2026-04-05T04:49:48Z",
+      "distance": 1037.5,
+      "start_index": 779,
+      "end_index": 1329,
+      "average_cadence": 85.0,
+      "device_watts": true,
+      "average_watts": 249.0,
+      "average_heartrate": 162.0,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 5392583,
+        "resource_state": 2,
+        "name": "Nicoll Hwy",
+        "activity_type": "Run",
+        "distance": 1037.5,
+        "average_grade": 0.2,
+        "maximum_grade": 18.6,
+        "elevation_high": 31.9,
+        "elevation_low": 0.0,
+        "start_latlng": [
+          1.30282,
+          103.866533
+        ],
+        "end_latlng": [
+          1.297195,
+          103.859206
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777341555484,
+      "resource_state": 2,
+      "name": "RT Nicoll Highway towards Mountbatten",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1028,
+      "moving_time": 1028,
+      "start_date": "2026-04-04T20:58:59Z",
+      "start_date_local": "2026-04-05T04:58:59Z",
+      "distance": 2381.9,
+      "start_index": 1330,
+      "end_index": 2358,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 250.3,
+      "average_heartrate": 161.5,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 6776457,
+        "resource_state": 2,
+        "name": "RT Nicoll Highway towards Mountbatten",
+        "activity_type": "Run",
+        "distance": 2381.9,
+        "average_grade": -0.1,
+        "maximum_grade": 20.9,
+        "elevation_high": 33.1,
+        "elevation_low": -3.3,
+        "start_latlng": [
+          1.297252,
+          103.859046
+        ],
+        "end_latlng": [
+          1.307854,
+          103.87701
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343071004,
+      "resource_state": 2,
+      "name": "RT Nicholl HIghway across Merdeka",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 410,
+      "moving_time": 410,
+      "start_date": "2026-04-04T21:03:48Z",
+      "start_date_local": "2026-04-05T05:03:48Z",
+      "distance": 920.2,
+      "start_index": 1619,
+      "end_index": 2029,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 249.7,
+      "average_heartrate": 161.9,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 7819196,
+        "resource_state": 2,
+        "name": "RT Nicholl HIghway across Merdeka",
+        "activity_type": "Run",
+        "distance": 920.2,
+        "average_grade": -2.1,
+        "maximum_grade": 4.8,
+        "elevation_high": 27.5,
+        "elevation_low": 4.8,
+        "start_latlng": [
+          1.300978,
+          103.863986
+        ],
+        "end_latlng": [
+          1.305586,
+          103.870821
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343016732,
+      "resource_state": 2,
+      "name": "Nicoll Hwy Bridge HOOK!",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 210,
+      "moving_time": 210,
+      "start_date": "2026-04-04T21:07:15Z",
+      "start_date_local": "2026-04-05T05:07:15Z",
+      "distance": 540.0,
+      "start_index": 1826,
+      "end_index": 2036,
+      "average_cadence": 85.7,
+      "device_watts": true,
+      "average_watts": 248.9,
+      "average_heartrate": 163.3,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 29201117,
+        "resource_state": 2,
+        "name": "Nicoll Hwy Bridge HOOK!",
+        "activity_type": "Run",
+        "distance": 540.0,
+        "average_grade": -0.2,
+        "maximum_grade": 5.0,
+        "elevation_high": 13.5,
+        "elevation_low": 10.4,
+        "start_latlng": [
+          1.303438,
+          103.867287
+        ],
+        "end_latlng": [
+          1.30556,
+          103.871008
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342820124,
+      "resource_state": 2,
+      "name": "Merdeka Bridge",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 111,
+      "moving_time": 111,
+      "start_date": "2026-04-04T21:07:25Z",
+      "start_date_local": "2026-04-05T05:07:25Z",
+      "distance": 244.66,
+      "start_index": 1836,
+      "end_index": 1947,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 250.1,
+      "average_heartrate": 163.3,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 3391566,
+        "resource_state": 2,
+        "name": "Merdeka Bridge",
+        "activity_type": "Run",
+        "distance": 244.66,
+        "average_grade": 1.3,
+        "maximum_grade": 4.9,
+        "elevation_high": 11.3,
+        "elevation_low": 6.1,
+        "start_latlng": [
+          1.3035076,
+          103.8674995
+        ],
+        "end_latlng": [
+          1.30473,
+          103.8693301
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Kallang, Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342714652,
+      "resource_state": 2,
+      "name": "Geylang PCN Sports Hub loop",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1316,
+      "moving_time": 1313,
+      "start_date": "2026-04-04T21:25:51Z",
+      "start_date_local": "2026-04-05T05:25:51Z",
+      "distance": 2926.5,
+      "start_index": 2942,
+      "end_index": 4258,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 248.9,
+      "average_heartrate": 162.7,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 39519434,
+        "resource_state": 2,
+        "name": "Geylang PCN Sports Hub loop",
+        "activity_type": "Run",
+        "distance": 2926.5,
+        "average_grade": -0.0,
+        "maximum_grade": 11.1,
+        "elevation_high": 14.0,
+        "elevation_low": 10.0,
+        "start_latlng": [
+          1.299802,
+          103.874008
+        ],
+        "end_latlng": [
+          1.298507,
+          103.873508
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342415644,
+      "resource_state": 2,
+      "name": "Run quick or die trying",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1035,
+      "moving_time": 999,
+      "start_date": "2026-04-04T21:37:34Z",
+      "start_date_local": "2026-04-05T05:37:34Z",
+      "distance": 2061.0,
+      "start_index": 3645,
+      "end_index": 4680,
+      "average_cadence": 83.5,
+      "device_watts": true,
+      "average_watts": 235.2,
+      "average_heartrate": 162.0,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 25091128,
+        "resource_state": 2,
+        "name": "Run quick or die trying",
+        "activity_type": "Run",
+        "distance": 2061.0,
+        "average_grade": 0.4,
+        "maximum_grade": 10.0,
+        "elevation_high": -5.0,
+        "elevation_low": -13.0,
+        "start_latlng": [
+          1.304046,
+          103.883523
+        ],
+        "end_latlng": [
+          1.29793,
+          103.867823
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344079644,
+      "resource_state": 2,
+      "name": "Mountbatten to Tanjong Rhu",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 402,
+      "moving_time": 402,
+      "start_date": "2026-04-04T21:37:38Z",
+      "start_date_local": "2026-04-05T05:37:38Z",
+      "distance": 931.09,
+      "start_index": 3649,
+      "end_index": 4051,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 246.7,
+      "average_heartrate": 162.1,
+      "max_heartrate": 165.0,
+      "segment": {
+        "id": 3399008,
+        "resource_state": 2,
+        "name": "Mountbatten to Tanjong Rhu",
+        "activity_type": "Run",
+        "distance": 931.09,
+        "average_grade": -0.2,
+        "maximum_grade": 5.9,
+        "elevation_high": 10.5,
+        "elevation_low": 3.3,
+        "start_latlng": [
+          1.3039619,
+          103.8834987
+        ],
+        "end_latlng": [
+          1.2982794,
+          103.8775136
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344840476,
+      "resource_state": 2,
+      "name": "RiverEdge to Tanjong Rhu Bridge",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 236,
+      "moving_time": 236,
+      "start_date": "2026-04-04T21:40:21Z",
+      "start_date_local": "2026-04-05T05:40:21Z",
+      "distance": 584.0,
+      "start_index": 3812,
+      "end_index": 4048,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 249.3,
+      "average_heartrate": 162.3,
+      "max_heartrate": 165.0,
+      "segment": {
+        "id": 26296030,
+        "resource_state": 2,
+        "name": "RiverEdge to Tanjong Rhu Bridge",
+        "activity_type": "Run",
+        "distance": 584.0,
+        "average_grade": 0.1,
+        "maximum_grade": 1.7,
+        "elevation_high": 8.8,
+        "elevation_low": 8.3,
+        "start_latlng": [
+          1.301485,
+          103.881259
+        ],
+        "end_latlng": [
+          1.298324,
+          103.877541
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343508252,
+      "resource_state": 2,
+      "name": "Coast to Coast",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 880,
+      "moving_time": 844,
+      "start_date": "2026-04-04T21:44:26Z",
+      "start_date_local": "2026-04-05T05:44:26Z",
+      "distance": 1954.0,
+      "start_index": 4057,
+      "end_index": 4937,
+      "average_cadence": 82.9,
+      "device_watts": true,
+      "average_watts": 235.2,
+      "average_heartrate": 163.5,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 6892872,
+        "resource_state": 2,
+        "name": "Coast to Coast",
+        "activity_type": "Run",
+        "distance": 1954.0,
+        "average_grade": 0.4,
+        "maximum_grade": 47.3,
+        "elevation_high": 77.5,
+        "elevation_low": 6.7,
+        "start_latlng": [
+          1.298327,
+          103.877425
+        ],
+        "end_latlng": [
+          1.294687,
+          103.86638
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343323932,
+      "resource_state": 2,
+      "name": "Tanjong Rhu Bridge to CC Sprint",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 106,
+      "moving_time": 106,
+      "start_date": "2026-04-04T21:44:37Z",
+      "start_date_local": "2026-04-05T05:44:37Z",
+      "distance": 242.4,
+      "start_index": 4068,
+      "end_index": 4174,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 249.4,
+      "average_heartrate": 162.7,
+      "max_heartrate": 164.0,
+      "segment": {
+        "id": 22595992,
+        "resource_state": 2,
+        "name": "Tanjong Rhu Bridge to CC Sprint",
+        "activity_type": "Run",
+        "distance": 242.4,
+        "average_grade": 3.3,
+        "maximum_grade": 10.5,
+        "elevation_high": 12.7,
+        "elevation_low": 4.0,
+        "start_latlng": [
+          1.298224,
+          103.87717
+        ],
+        "end_latlng": [
+          1.297951,
+          103.875037
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342502684,
+      "resource_state": 2,
+      "name": "Tanjong Rhu Bridge to Suspension Foot Bridge",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 192,
+      "moving_time": 192,
+      "start_date": "2026-04-04T21:44:40Z",
+      "start_date_local": "2026-04-05T05:44:40Z",
+      "distance": 432.9,
+      "start_index": 4071,
+      "end_index": 4263,
+      "average_cadence": 86.1,
+      "device_watts": true,
+      "average_watts": 243.5,
+      "average_heartrate": 162.3,
+      "max_heartrate": 165.0,
+      "segment": {
+        "id": 26296073,
+        "resource_state": 2,
+        "name": "Tanjong Rhu Bridge to Suspension Foot Bridge",
+        "activity_type": "Run",
+        "distance": 432.9,
+        "average_grade": 0.4,
+        "maximum_grade": 1.9,
+        "elevation_high": 10.8,
+        "elevation_low": 8.9,
+        "start_latlng": [
+          1.298149,
+          103.877139
+        ],
+        "end_latlng": [
+          1.298524,
+          103.873386
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343137564,
+      "resource_state": 2,
+      "name": "Camelot Sprint Westbound",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 67,
+      "moving_time": 67,
+      "start_date": "2026-04-04T21:45:18Z",
+      "start_date_local": "2026-04-05T05:45:18Z",
+      "distance": 149.7,
+      "start_index": 4109,
+      "end_index": 4176,
+      "average_cadence": 86.1,
+      "device_watts": true,
+      "average_watts": 239.8,
+      "average_heartrate": 163.3,
+      "max_heartrate": 164.0,
+      "segment": {
+        "id": 23179390,
+        "resource_state": 2,
+        "name": "Camelot Sprint Westbound",
+        "activity_type": "Run",
+        "distance": 149.7,
+        "average_grade": 0.8,
+        "maximum_grade": 20.0,
+        "elevation_high": 4.4,
+        "elevation_low": 1.0,
+        "start_latlng": [
+          1.297963,
+          103.876397
+        ],
+        "end_latlng": [
+          1.298029,
+          103.875008
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342809884,
+      "resource_state": 2,
+      "name": "SuperTrail 100m Sprints",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 40,
+      "moving_time": 40,
+      "start_date": "2026-04-04T21:48:00Z",
+      "start_date_local": "2026-04-05T05:48:00Z",
+      "distance": 102.8,
+      "start_index": 4271,
+      "end_index": 4311,
+      "average_cadence": 87.1,
+      "device_watts": true,
+      "average_watts": 229.4,
+      "average_heartrate": 161.1,
+      "max_heartrate": 163.0,
+      "segment": {
+        "id": 28766121,
+        "resource_state": 2,
+        "name": "SuperTrail 100m Sprints",
+        "activity_type": "Run",
+        "distance": 102.8,
+        "average_grade": 0.6,
+        "maximum_grade": 7.5,
+        "elevation_high": 383.4,
+        "elevation_low": 380.8,
+        "start_latlng": [
+          1.298073,
+          103.873243
+        ],
+        "end_latlng": [
+          1.297927,
+          103.872335
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344231196,
+      "resource_state": 2,
+      "name": "No cheating",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 127,
+      "moving_time": 127,
+      "start_date": "2026-04-04T21:48:40Z",
+      "start_date_local": "2026-04-05T05:48:40Z",
+      "distance": 296.5,
+      "start_index": 4311,
+      "end_index": 4438,
+      "average_cadence": 86.9,
+      "device_watts": true,
+      "average_watts": 232.6,
+      "average_heartrate": 163.4,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 6855757,
+        "resource_state": 2,
+        "name": "No cheating",
+        "activity_type": "Run",
+        "distance": 296.5,
+        "average_grade": -3.0,
+        "maximum_grade": 13.0,
+        "elevation_high": 20.7,
+        "elevation_low": 9.7,
+        "start_latlng": [
+          1.298393,
+          103.872452
+        ],
+        "end_latlng": [
+          1.298689,
+          103.871869
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777345269532,
+      "resource_state": 2,
+      "name": "round the outside",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 502,
+      "moving_time": 468,
+      "start_date": "2026-04-04T21:50:47Z",
+      "start_date_local": "2026-04-05T05:50:47Z",
+      "distance": 1080.1,
+      "start_index": 4438,
+      "end_index": 4940,
+      "average_cadence": 80.3,
+      "device_watts": true,
+      "average_watts": 231.5,
+      "average_heartrate": 164.3,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 6855762,
+        "resource_state": 2,
+        "name": "round the outside",
+        "activity_type": "Run",
+        "distance": 1080.1,
+        "average_grade": 0.1,
+        "maximum_grade": 45.9,
+        "elevation_high": 76.9,
+        "elevation_low": 7.7,
+        "start_latlng": [
+          1.298689,
+          103.871869
+        ],
+        "end_latlng": [
+          1.294624,
+          103.86638
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344803612,
+      "resource_state": 2,
+      "name": "Tanjong Rhu Promenade - Straight (R)",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 245,
+      "moving_time": 211,
+      "start_date": "2026-04-04T21:50:53Z",
+      "start_date_local": "2026-04-05T05:50:53Z",
+      "distance": 492.1,
+      "start_index": 4444,
+      "end_index": 4689,
+      "average_cadence": 73.8,
+      "device_watts": true,
+      "average_watts": 208.4,
+      "average_heartrate": 161.2,
+      "max_heartrate": 166.0,
+      "segment": {
+        "id": 22587661,
+        "resource_state": 2,
+        "name": "Tanjong Rhu Promenade - Straight (R)",
+        "activity_type": "Run",
+        "distance": 492.1,
+        "average_grade": -1.1,
+        "maximum_grade": 1.6,
+        "elevation_high": 10.0,
+        "elevation_low": 4.3,
+        "start_latlng": [
+          1.29855,
+          103.87193
+        ],
+        "end_latlng": [
+          1.297976,
+          103.867616
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343421212,
+      "resource_state": 2,
+      "name": "Geylang Bicycle Track / Park Connector Climb",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 167,
+      "moving_time": 167,
+      "start_date": "2026-04-04T21:54:55Z",
+      "start_date_local": "2026-04-05T05:54:55Z",
+      "distance": 307.4,
+      "start_index": 4686,
+      "end_index": 4853,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 254.1,
+      "average_heartrate": 167.0,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 1101471,
+        "resource_state": 2,
+        "name": "Geylang Bicycle Track / Park Connector Climb",
+        "activity_type": "Run",
+        "distance": 307.4,
+        "average_grade": 0.0,
+        "maximum_grade": 0.0,
+        "elevation_high": 45.6,
+        "elevation_low": 45.6,
+        "start_latlng": [
+          1.297702006995678,
+          103.86771144345403
+        ],
+        "end_latlng": [
+          1.2965013831853867,
+          103.86620781384408
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777341759260,
+      "resource_state": 2,
+      "name": "Tanjong Rhu Promenade - Head (R)",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 91,
+      "moving_time": 91,
+      "start_date": "2026-04-04T21:55:05Z",
+      "start_date_local": "2026-04-05T05:55:05Z",
+      "distance": 225.4,
+      "start_index": 4696,
+      "end_index": 4787,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 254.2,
+      "average_heartrate": 166.7,
+      "max_heartrate": 168.0,
+      "segment": {
+        "id": 22587652,
+        "resource_state": 2,
+        "name": "Tanjong Rhu Promenade - Head (R)",
+        "activity_type": "Run",
+        "distance": 225.4,
+        "average_grade": -1.2,
+        "maximum_grade": 2.2,
+        "elevation_high": 4.3,
+        "elevation_low": 1.6,
+        "start_latlng": [
+          1.298047,
+          103.867559
+        ],
+        "end_latlng": [
+          1.297838,
+          103.866172
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344843548,
+      "resource_state": 2,
+      "name": "Rhu Cross - 1",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 225,
+      "moving_time": 225,
+      "start_date": "2026-04-04T22:01:40Z",
+      "start_date_local": "2026-04-05T06:01:40Z",
+      "distance": 524.6,
+      "start_index": 5091,
+      "end_index": 5316,
+      "average_cadence": 86.4,
+      "device_watts": true,
+      "average_watts": 248.2,
+      "average_heartrate": 167.9,
+      "max_heartrate": 169.0,
+      "segment": {
+        "id": 22602634,
+        "resource_state": 2,
+        "name": "Rhu Cross - 1",
+        "activity_type": "Run",
+        "distance": 524.6,
+        "average_grade": 1.1,
+        "maximum_grade": 5.3,
+        "elevation_high": 10.5,
+        "elevation_low": 4.4,
+        "start_latlng": [
+          1.294143,
+          103.868575
+        ],
+        "end_latlng": [
+          1.294481,
+          103.873188
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777345448732,
+      "resource_state": 2,
+      "name": "wind up",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 281,
+      "moving_time": 281,
+      "start_date": "2026-04-04T22:12:21Z",
+      "start_date_local": "2026-04-05T06:12:21Z",
+      "distance": 673.7,
+      "start_index": 5732,
+      "end_index": 6013,
+      "average_cadence": 86.5,
+      "device_watts": true,
+      "average_watts": 253.9,
+      "average_heartrate": 167.1,
+      "max_heartrate": 171.0,
+      "segment": {
+        "id": 6952980,
+        "resource_state": 2,
+        "name": "wind up",
+        "activity_type": "Run",
+        "distance": 673.7,
+        "average_grade": -0.7,
+        "maximum_grade": 0.0,
+        "elevation_high": 9.6,
+        "elevation_low": 4.6,
+        "start_latlng": [
+          1.287441,
+          103.877012
+        ],
+        "end_latlng": [
+          1.28249,
+          103.875957
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343420188,
+      "resource_state": 2,
+      "name": "Breakwater",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 146,
+      "moving_time": 146,
+      "start_date": "2026-04-04T22:17:16Z",
+      "start_date_local": "2026-04-05T06:17:16Z",
+      "distance": 382.3,
+      "start_index": 6027,
+      "end_index": 6173,
+      "average_cadence": 86.7,
+      "device_watts": true,
+      "average_watts": 247.8,
+      "average_heartrate": 165.2,
+      "max_heartrate": 167.0,
+      "segment": {
+        "id": 28991853,
+        "resource_state": 2,
+        "name": "Breakwater",
+        "activity_type": "Run",
+        "distance": 382.3,
+        "average_grade": -0.5,
+        "maximum_grade": 39.9,
+        "elevation_high": 33.0,
+        "elevation_low": -3.9,
+        "start_latlng": [
+          1.282304,
+          103.875802
+        ],
+        "end_latlng": [
+          1.281898,
+          103.874445
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343221532,
+      "resource_state": 2,
+      "name": "THE WFC BRIDGE",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 200,
+      "moving_time": 200,
+      "start_date": "2026-04-04T22:21:44Z",
+      "start_date_local": "2026-04-05T06:21:44Z",
+      "distance": 466.8,
+      "start_index": 6295,
+      "end_index": 6495,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 251.0,
+      "average_heartrate": 170.9,
+      "max_heartrate": 174.0,
+      "segment": {
+        "id": 35553119,
+        "resource_state": 2,
+        "name": "THE WFC BRIDGE",
+        "activity_type": "Run",
+        "distance": 466.8,
+        "average_grade": 0.1,
+        "maximum_grade": 5.9,
+        "elevation_high": 12.0,
+        "elevation_low": 8.4,
+        "start_latlng": [
+          1.282562,
+          103.873482
+        ],
+        "end_latlng": [
+          1.280905,
+          103.870781
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342606108,
+      "resource_state": 2,
+      "name": "GBTB",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1013,
+      "moving_time": 1009,
+      "start_date": "2026-04-04T22:26:34Z",
+      "start_date_local": "2026-04-05T06:26:34Z",
+      "distance": 2407.2,
+      "start_index": 6585,
+      "end_index": 7598,
+      "average_cadence": 86.1,
+      "device_watts": true,
+      "average_watts": 258.5,
+      "average_heartrate": 173.6,
+      "max_heartrate": 180.0,
+      "segment": {
+        "id": 19683940,
+        "resource_state": 2,
+        "name": "GBTB",
+        "activity_type": "Run",
+        "distance": 2407.2,
+        "average_grade": 0.1,
+        "maximum_grade": 20.3,
+        "elevation_high": 21.0,
+        "elevation_low": 1.9,
+        "start_latlng": [
+          1.282325,
+          103.869191
+        ],
+        "end_latlng": [
+          1.285543,
+          103.862603
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342088988,
+      "resource_state": 2,
+      "name": "Marina Gardens Dr (board walk)",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 413,
+      "moving_time": 411,
+      "start_date": "2026-04-04T22:27:50Z",
+      "start_date_local": "2026-04-05T06:27:50Z",
+      "distance": 955.5,
+      "start_index": 6661,
+      "end_index": 7074,
+      "average_cadence": 85.4,
+      "device_watts": true,
+      "average_watts": 253.6,
+      "average_heartrate": 173.1,
+      "max_heartrate": 180.0,
+      "segment": {
+        "id": 8435655,
+        "resource_state": 2,
+        "name": "Marina Gardens Dr (board walk)",
+        "activity_type": "Run",
+        "distance": 955.5,
+        "average_grade": -0.5,
+        "maximum_grade": 26.9,
+        "elevation_high": 14.9,
+        "elevation_low": -5.0,
+        "start_latlng": [
+          1.280338,
+          103.868933
+        ],
+        "end_latlng": [
+          1.276254,
+          103.861914
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342799644,
+      "resource_state": 2,
+      "name": "Marina Blvd",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 113,
+      "moving_time": 113,
+      "start_date": "2026-04-04T22:34:44Z",
+      "start_date_local": "2026-04-05T06:34:44Z",
+      "distance": 273.6,
+      "start_index": 7075,
+      "end_index": 7188,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 252.8,
+      "average_heartrate": 174.0,
+      "max_heartrate": 175.0,
+      "segment": {
+        "id": 8640358,
+        "resource_state": 2,
+        "name": "Marina Blvd",
+        "activity_type": "Run",
+        "distance": 273.6,
+        "average_grade": 2.2,
+        "maximum_grade": 16.5,
+        "elevation_high": 15.3,
+        "elevation_low": 4.1,
+        "start_latlng": [
+          1.276202,
+          103.861874
+        ],
+        "end_latlng": [
+          1.277535,
+          103.859834
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344828188,
+      "resource_state": 2,
+      "name": "The Bored-walk",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 397,
+      "moving_time": 397,
+      "start_date": "2026-04-04T22:36:43Z",
+      "start_date_local": "2026-04-05T06:36:43Z",
+      "distance": 941.4,
+      "start_index": 7194,
+      "end_index": 7591,
+      "average_cadence": 86.7,
+      "device_watts": true,
+      "average_watts": 264.0,
+      "average_heartrate": 174.4,
+      "max_heartrate": 178.0,
+      "segment": {
+        "id": 7660623,
+        "resource_state": 2,
+        "name": "The Bored-walk",
+        "activity_type": "Run",
+        "distance": 941.4,
+        "average_grade": -0.1,
+        "maximum_grade": 5.3,
+        "elevation_high": 83.0,
+        "elevation_low": 80.6,
+        "start_latlng": [
+          1.277666,
+          103.859754
+        ],
+        "end_latlng": [
+          1.285391,
+          103.862773
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344440092,
+      "resource_state": 2,
+      "name": "Marina Blvd too  over pass",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 207,
+      "moving_time": 207,
+      "start_date": "2026-04-04T22:36:59Z",
+      "start_date_local": "2026-04-05T06:36:59Z",
+      "distance": 515.6,
+      "start_index": 7210,
+      "end_index": 7417,
+      "average_cadence": 86.7,
+      "device_watts": true,
+      "average_watts": 267.2,
+      "average_heartrate": 174.6,
+      "max_heartrate": 178.0,
+      "segment": {
+        "id": 8640385,
+        "resource_state": 2,
+        "name": "Marina Blvd too  over pass",
+        "activity_type": "Run",
+        "distance": 515.6,
+        "average_grade": -0.3,
+        "maximum_grade": 10.5,
+        "elevation_high": 19.9,
+        "elevation_low": 4.7,
+        "start_latlng": [
+          1.27782,
+          103.859782
+        ],
+        "end_latlng": [
+          1.281753,
+          103.862052
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343220508,
+      "resource_state": 2,
+      "name": "Bromont-CAR's run",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 219,
+      "moving_time": 219,
+      "start_date": "2026-04-04T22:39:34Z",
+      "start_date_local": "2026-04-05T06:39:34Z",
+      "distance": 571.3,
+      "start_index": 7365,
+      "end_index": 7584,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 261.2,
+      "average_heartrate": 174.7,
+      "max_heartrate": 178.0,
+      "segment": {
+        "id": 10122779,
+        "resource_state": 2,
+        "name": "Bromont-CAR's run",
+        "activity_type": "Run",
+        "distance": 571.3,
+        "average_grade": 0.6,
+        "maximum_grade": 8.8,
+        "elevation_high": 17.8,
+        "elevation_low": 7.9,
+        "start_latlng": [
+          1.280786,
+          103.861388
+        ],
+        "end_latlng": [
+          1.285259,
+          103.862568
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777345039132,
+      "resource_state": 2,
+      "name": "RT MBS Mile return",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 663,
+      "moving_time": 642,
+      "start_date": "2026-04-04T22:43:24Z",
+      "start_date_local": "2026-04-05T06:43:24Z",
+      "distance": 1609.4,
+      "start_index": 7595,
+      "end_index": 8258,
+      "average_cadence": 83.8,
+      "device_watts": true,
+      "average_watts": 250.0,
+      "average_heartrate": 172.9,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 15758123,
+        "resource_state": 2,
+        "name": "RT MBS Mile return",
+        "activity_type": "Run",
+        "distance": 1609.4,
+        "average_grade": -0.0,
+        "maximum_grade": 2.9,
+        "elevation_high": 22.8,
+        "elevation_low": 19.0,
+        "start_latlng": [
+          1.285527,
+          103.862972
+        ],
+        "end_latlng": [
+          1.282047,
+          103.852846
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342232348,
+      "resource_state": 2,
+      "name": "Casino Runner",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 362,
+      "moving_time": 360,
+      "start_date": "2026-04-04T22:45:34Z",
+      "start_date_local": "2026-04-05T06:45:34Z",
+      "distance": 962.242,
+      "start_index": 7725,
+      "end_index": 8087,
+      "average_cadence": 86.4,
+      "device_watts": true,
+      "average_watts": 261.1,
+      "average_heartrate": 173.0,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 1014825,
+        "resource_state": 2,
+        "name": "Casino Runner",
+        "activity_type": "Run",
+        "distance": 962.242,
+        "average_grade": 0.8,
+        "maximum_grade": 10.7,
+        "elevation_high": 14.3,
+        "elevation_low": 6.7,
+        "start_latlng": [
+          1.2865325328010049,
+          103.86044518712207
+        ],
+        "end_latlng": [
+          1.2802171742645587,
+          103.85590761581236
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342417692,
+      "resource_state": 2,
+      "name": "RT Art science museum to Merlion",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 812,
+      "moving_time": 804,
+      "start_date": "2026-04-04T22:45:36Z",
+      "start_date_local": "2026-04-05T06:45:36Z",
+      "distance": 2196.5,
+      "start_index": 7727,
+      "end_index": 8539,
+      "average_cadence": 86.7,
+      "device_watts": true,
+      "average_watts": 266.6,
+      "average_heartrate": 173.6,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 8267973,
+        "resource_state": 2,
+        "name": "RT Art science museum to Merlion",
+        "activity_type": "Run",
+        "distance": 2196.5,
+        "average_grade": 0.1,
+        "maximum_grade": 12.4,
+        "elevation_high": 40.8,
+        "elevation_low": 5.4,
+        "start_latlng": [
+          1.28635,
+          103.860368
+        ],
+        "end_latlng": [
+          1.286672,
+          103.854538
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344425756,
+      "resource_state": 2,
+      "name": "RT MBS Lotus pond 400m ",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 156,
+      "moving_time": 156,
+      "start_date": "2026-04-04T22:46:34Z",
+      "start_date_local": "2026-04-05T06:46:34Z",
+      "distance": 396.3,
+      "start_index": 7785,
+      "end_index": 7941,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 265.9,
+      "average_heartrate": 174.0,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 35476116,
+        "resource_state": 2,
+        "name": "RT MBS Lotus pond 400m ",
+        "activity_type": "Run",
+        "distance": 396.3,
+        "average_grade": 0.0,
+        "maximum_grade": 2.0,
+        "elevation_high": 6.2,
+        "elevation_low": 5.8,
+        "start_latlng": [
+          1.285862,
+          103.859317
+        ],
+        "end_latlng": [
+          1.282798,
+          103.857659
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342059292,
+      "resource_state": 2,
+      "name": "RT MBS rain oculus 300m sprint",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 126,
+      "moving_time": 126,
+      "start_date": "2026-04-04T22:47:45Z",
+      "start_date_local": "2026-04-05T06:47:45Z",
+      "distance": 308.9,
+      "start_index": 7856,
+      "end_index": 7982,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 263.4,
+      "average_heartrate": 173.5,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 35478351,
+        "resource_state": 2,
+        "name": "RT MBS rain oculus 300m sprint",
+        "activity_type": "Run",
+        "distance": 308.9,
+        "average_grade": -0.3,
+        "maximum_grade": 2.3,
+        "elevation_high": 10.0,
+        "elevation_low": 8.8,
+        "start_latlng": [
+          1.284354,
+          103.858728
+        ],
+        "end_latlng": [
+          1.282072,
+          103.857197
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342360348,
+      "resource_state": 2,
+      "name": "RT MBS 400m",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 166,
+      "moving_time": 166,
+      "start_date": "2026-04-04T22:48:49Z",
+      "start_date_local": "2026-04-05T06:48:49Z",
+      "distance": 400.6,
+      "start_index": 7920,
+      "end_index": 8086,
+      "average_cadence": 86.4,
+      "device_watts": true,
+      "average_watts": 250.6,
+      "average_heartrate": 173.2,
+      "max_heartrate": 176.0,
+      "segment": {
+        "id": 22366562,
+        "resource_state": 2,
+        "name": "RT MBS 400m",
+        "activity_type": "Run",
+        "distance": 400.6,
+        "average_grade": -0.4,
+        "maximum_grade": 1.7,
+        "elevation_high": -44.4,
+        "elevation_low": -47.4,
+        "start_latlng": [
+          1.283121,
+          103.858002
+        ],
+        "end_latlng": [
+          1.28025,
+          103.855925
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344484124,
+      "resource_state": 2,
+      "name": "Boon Tat Link Climb",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 297,
+      "moving_time": 292,
+      "start_date": "2026-04-04T22:50:17Z",
+      "start_date_local": "2026-04-05T06:50:17Z",
+      "distance": 735.66,
+      "start_index": 8008,
+      "end_index": 8305,
+      "average_cadence": 86.8,
+      "device_watts": true,
+      "average_watts": 252.5,
+      "average_heartrate": 173.3,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 946373,
+        "resource_state": 2,
+        "name": "Boon Tat Link Climb",
+        "activity_type": "Run",
+        "distance": 735.66,
+        "average_grade": 6.2,
+        "maximum_grade": 20.8,
+        "elevation_high": 55.3,
+        "elevation_low": 9.9,
+        "start_latlng": [
+          1.281488472595811,
+          103.8569459784776
+        ],
+        "end_latlng": [
+          1.28224678337574,
+          103.8515376392752
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343266588,
+      "resource_state": 2,
+      "name": "Marina Blvrd",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 272,
+      "moving_time": 266,
+      "start_date": "2026-04-04T22:51:43Z",
+      "start_date_local": "2026-04-05T06:51:43Z",
+      "distance": 563.1,
+      "start_index": 8094,
+      "end_index": 8366,
+      "average_cadence": 86.8,
+      "device_watts": true,
+      "average_watts": 261.4,
+      "average_heartrate": 174.0,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 12861913,
+        "resource_state": 2,
+        "name": "Marina Blvrd",
+        "activity_type": "Run",
+        "distance": 563.1,
+        "average_grade": 3.1,
+        "maximum_grade": 16.7,
+        "elevation_high": 41.2,
+        "elevation_low": 14.8,
+        "start_latlng": [
+          1.280102,
+          103.855851
+        ],
+        "end_latlng": [
+          1.283256,
+          103.853176
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777343571740,
+      "resource_state": 2,
+      "name": "RT NTUC direction 400m finale",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 162,
+      "moving_time": 158,
+      "start_date": "2026-04-04T22:51:45Z",
+      "start_date_local": "2026-04-05T06:51:45Z",
+      "distance": 396.1,
+      "start_index": 8096,
+      "end_index": 8258,
+      "average_cadence": 87.0,
+      "device_watts": true,
+      "average_watts": 252.5,
+      "average_heartrate": 173.6,
+      "max_heartrate": 176.0,
+      "segment": {
+        "id": 35478263,
+        "resource_state": 2,
+        "name": "RT NTUC direction 400m finale",
+        "activity_type": "Run",
+        "distance": 396.1,
+        "average_grade": 0.2,
+        "maximum_grade": 2.3,
+        "elevation_high": 8.0,
+        "elevation_low": 7.0,
+        "start_latlng": [
+          1.280147,
+          103.855825
+        ],
+        "end_latlng": [
+          1.281993,
+          103.852873
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342832412,
+      "resource_state": 2,
+      "name": "Fullerton",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 137,
+      "moving_time": 137,
+      "start_date": "2026-04-04T22:56:58Z",
+      "start_date_local": "2026-04-05T06:56:58Z",
+      "distance": 318.868,
+      "start_index": 8409,
+      "end_index": 8546,
+      "average_cadence": 87.0,
+      "device_watts": true,
+      "average_watts": 284.9,
+      "average_heartrate": 174.7,
+      "max_heartrate": 177.0,
+      "segment": {
+        "id": 799614,
+        "resource_state": 2,
+        "name": "Fullerton",
+        "activity_type": "Run",
+        "distance": 318.868,
+        "average_grade": 1.3,
+        "maximum_grade": 21.8,
+        "elevation_high": 40.1,
+        "elevation_low": 21.5,
+        "start_latlng": [
+          1.28431784,
+          103.85328796
+        ],
+        "end_latlng": [
+          1.28667782,
+          103.85379602
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342073628,
+      "resource_state": 2,
+      "name": "Miss Chardonnay (GER) was here 12/23",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 289,
+      "moving_time": 289,
+      "start_date": "2026-04-04T22:57:55Z",
+      "start_date_local": "2026-04-05T06:57:55Z",
+      "distance": 778.0,
+      "start_index": 8466,
+      "end_index": 8755,
+      "average_cadence": 86.7,
+      "device_watts": true,
+      "average_watts": 294.3,
+      "average_heartrate": 179.1,
+      "max_heartrate": 183.0,
+      "segment": {
+        "id": 36067392,
+        "resource_state": 2,
+        "name": "Miss Chardonnay (GER) was here 12/23",
+        "activity_type": "Run",
+        "distance": 778.0,
+        "average_grade": 0.1,
+        "maximum_grade": 5.1,
+        "elevation_high": 13.6,
+        "elevation_low": 9.8,
+        "start_latlng": [
+          1.285011,
+          103.853927
+        ],
+        "end_latlng": [
+          1.288892,
+          103.857626
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777344038684,
+      "resource_state": 2,
+      "name": "Marina foot bridge reverse",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 81,
+      "moving_time": 81,
+      "start_date": "2026-04-04T22:59:23Z",
+      "start_date_local": "2026-04-05T06:59:23Z",
+      "distance": 282.0,
+      "start_index": 8554,
+      "end_index": 8635,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 310.4,
+      "average_heartrate": 181.4,
+      "max_heartrate": 183.0,
+      "segment": {
+        "id": 9352531,
+        "resource_state": 2,
+        "name": "Marina foot bridge reverse",
+        "activity_type": "Run",
+        "distance": 282.0,
+        "average_grade": -0.1,
+        "maximum_grade": 10.2,
+        "elevation_high": 59.4,
+        "elevation_low": 54.2,
+        "start_latlng": [
+          1.287092,
+          103.854433
+        ],
+        "end_latlng": [
+          1.288879,
+          103.854765
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777342341916,
+      "resource_state": 2,
+      "name": "Esplanade Bridge to ECP Bridge Tourist Dodge",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 357,
+      "moving_time": 357,
+      "start_date": "2026-04-04T23:00:36Z",
+      "start_date_local": "2026-04-05T07:00:36Z",
+      "distance": 881.137,
+      "start_index": 8627,
+      "end_index": 8984,
+      "average_cadence": 85.5,
+      "device_watts": true,
+      "average_watts": 292.9,
+      "average_heartrate": 182.1,
+      "max_heartrate": 189.0,
+      "segment": {
+        "id": 3430115,
+        "resource_state": 2,
+        "name": "Esplanade Bridge to ECP Bridge Tourist Dodge",
+        "activity_type": "Run",
+        "distance": 881.137,
+        "average_grade": 0.1,
+        "maximum_grade": 8.4,
+        "elevation_high": 16.8,
+        "elevation_low": 1.4,
+        "start_latlng": [
+          1.288956,
+          103.854289
+        ],
+        "end_latlng": [
+          1.288689,
+          103.86196
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3475650777338787612,
+      "resource_state": 2,
+      "name": "Pitlane 500's",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 398,
+      "moving_time": 242,
+      "start_date": "2026-04-04T23:06:09Z",
+      "start_date_local": "2026-04-05T07:06:09Z",
+      "distance": 497.4,
+      "start_index": 8960,
+      "end_index": 9358,
+      "average_cadence": 38.9,
+      "device_watts": true,
+      "average_watts": 114.1,
+      "average_heartrate": 167.2,
+      "max_heartrate": 189.0,
+      "segment": {
+        "id": 6146948,
+        "resource_state": 2,
+        "name": "Pitlane 500's",
+        "activity_type": "Run",
+        "distance": 497.4,
+        "average_grade": -3.2,
+        "maximum_grade": 11.0,
+        "elevation_high": 17.8,
+        "elevation_low": 0.0,
+        "start_latlng": [
+          1.288993,
+          103.861277
+        ],
+        "end_latlng": [
+          1.290227,
+          103.864264
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Singapore",
+        "state": null,
+        "country": "Singapore",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "only_me",
+      "hidden": false
+    }
+  ],
+  "splits_metric": [
+    {
+      "distance": 1000.8,
+      "elapsed_time": 429,
+      "elevation_difference": 0.0,
+      "moving_time": 429,
+      "split": 1,
+      "average_speed": 2.33,
+      "average_grade_adjusted_speed": 2.35,
+      "average_heartrate": 154.26573426573427,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.8,
+      "elapsed_time": 433,
+      "elevation_difference": -0.2,
+      "moving_time": 433,
+      "split": 2,
+      "average_speed": 2.31,
+      "average_grade_adjusted_speed": 2.35,
+      "average_heartrate": 159.53579676674366,
+      "pace_zone": 0
+    },
+    {
+      "distance": 998.8,
+      "elapsed_time": 441,
+      "elevation_difference": -1.0,
+      "moving_time": 441,
+      "split": 3,
+      "average_speed": 2.26,
+      "average_grade_adjusted_speed": 2.27,
+      "average_heartrate": 162.12244897959184,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.9,
+      "elapsed_time": 439,
+      "elevation_difference": 2.2,
+      "moving_time": 439,
+      "split": 4,
+      "average_speed": 2.28,
+      "average_grade_adjusted_speed": 2.31,
+      "average_heartrate": 160.28929384965832,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.0,
+      "elapsed_time": 444,
+      "elevation_difference": 0.6,
+      "moving_time": 444,
+      "split": 5,
+      "average_speed": 2.25,
+      "average_grade_adjusted_speed": 2.27,
+      "average_heartrate": 162.41216216216216,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.6,
+      "elapsed_time": 458,
+      "elevation_difference": 2.0,
+      "moving_time": 446,
+      "split": 6,
+      "average_speed": 2.24,
+      "average_grade_adjusted_speed": 2.26,
+      "average_heartrate": 161.4179775280899,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.9,
+      "elapsed_time": 428,
+      "elevation_difference": -0.8,
+      "moving_time": 428,
+      "split": 7,
+      "average_speed": 2.34,
+      "average_grade_adjusted_speed": 2.34,
+      "average_heartrate": 164.44158878504672,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.7,
+      "elapsed_time": 437,
+      "elevation_difference": -0.2,
+      "moving_time": 437,
+      "split": 8,
+      "average_speed": 2.29,
+      "average_grade_adjusted_speed": 2.3,
+      "average_heartrate": 161.8192219679634,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.1,
+      "elapsed_time": 435,
+      "elevation_difference": -0.2,
+      "moving_time": 435,
+      "split": 9,
+      "average_speed": 2.3,
+      "average_grade_adjusted_speed": 2.31,
+      "average_heartrate": 163.26036866359448,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.1,
+      "elapsed_time": 446,
+      "elevation_difference": 0.4,
+      "moving_time": 446,
+      "split": 10,
+      "average_speed": 2.24,
+      "average_grade_adjusted_speed": 2.26,
+      "average_heartrate": 162.39864864864865,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.8,
+      "elapsed_time": 462,
+      "elevation_difference": -1.0,
+      "moving_time": 428,
+      "split": 11,
+      "average_speed": 2.34,
+      "average_grade_adjusted_speed": 2.35,
+      "average_heartrate": 163.61915887850466,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.3,
+      "elapsed_time": 433,
+      "elevation_difference": -0.4,
+      "moving_time": 433,
+      "split": 12,
+      "average_speed": 2.31,
+      "average_grade_adjusted_speed": 2.32,
+      "average_heartrate": 168.0787037037037,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.5,
+      "elapsed_time": 427,
+      "elevation_difference": 1.4,
+      "moving_time": 427,
+      "split": 13,
+      "average_speed": 2.34,
+      "average_grade_adjusted_speed": 2.36,
+      "average_heartrate": 166.8384074941452,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1002.0,
+      "elapsed_time": 428,
+      "elevation_difference": 1.0,
+      "moving_time": 428,
+      "split": 14,
+      "average_speed": 2.34,
+      "average_grade_adjusted_speed": 2.36,
+      "average_heartrate": 166.72663551401868,
+      "pace_zone": 0
+    },
+    {
+      "distance": 998.1,
+      "elapsed_time": 414,
+      "elevation_difference": -1.6,
+      "moving_time": 414,
+      "split": 15,
+      "average_speed": 2.41,
+      "average_grade_adjusted_speed": 2.43,
+      "average_heartrate": 169.04347826086956,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1001.4,
+      "elapsed_time": 417,
+      "elevation_difference": 1.2,
+      "moving_time": 417,
+      "split": 16,
+      "average_speed": 2.4,
+      "average_grade_adjusted_speed": 2.43,
+      "average_heartrate": 172.21065375302663,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.5,
+      "elapsed_time": 416,
+      "elevation_difference": 0.0,
+      "moving_time": 416,
+      "split": 17,
+      "average_speed": 2.41,
+      "average_grade_adjusted_speed": 2.42,
+      "average_heartrate": 174.42067307692307,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.3,
+      "elapsed_time": 432,
+      "elevation_difference": 0.4,
+      "moving_time": 422,
+      "split": 18,
+      "average_speed": 2.37,
+      "average_grade_adjusted_speed": 2.4,
+      "average_heartrate": 173.10602409638554,
+      "pace_zone": 0
+    },
+    {
+      "distance": 999.1,
+      "elapsed_time": 415,
+      "elevation_difference": -1.4,
+      "moving_time": 415,
+      "split": 19,
+      "average_speed": 2.41,
+      "average_grade_adjusted_speed": 2.41,
+      "average_heartrate": 173.50843373493976,
+      "pace_zone": 0
+    },
+    {
+      "distance": 998.5,
+      "elapsed_time": 385,
+      "elevation_difference": 2.4,
+      "moving_time": 382,
+      "split": 20,
+      "average_speed": 2.61,
+      "average_grade_adjusted_speed": 2.66,
+      "average_heartrate": 175.73878627968338,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1001.2,
+      "elapsed_time": 362,
+      "elevation_difference": -3.2,
+      "moving_time": 362,
+      "split": 21,
+      "average_speed": 2.77,
+      "average_grade_adjusted_speed": 2.76,
+      "average_heartrate": 181.98618784530387,
+      "pace_zone": 0
+    },
+    {
+      "distance": 470.7,
+      "elapsed_time": 408,
+      "elevation_difference": -1.4,
+      "moving_time": 269,
+      "split": 22,
+      "average_speed": 1.75,
+      "average_grade_adjusted_speed": 1.75,
+      "average_heartrate": 173.91769547325103,
+      "pace_zone": 0
+    }
+  ],
+  "splits_standard": [
+    {
+      "distance": 1611.2,
+      "elapsed_time": 693,
+      "elevation_difference": -4.4,
+      "moving_time": 693,
+      "split": 1,
+      "average_speed": 2.32,
+      "average_grade_adjusted_speed": 2.33,
+      "average_heartrate": 155.7806637806638,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1607.5,
+      "elapsed_time": 706,
+      "elevation_difference": 5.0,
+      "moving_time": 706,
+      "split": 2,
+      "average_speed": 2.28,
+      "average_grade_adjusted_speed": 2.32,
+      "average_heartrate": 161.63031161473089,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.6,
+      "elapsed_time": 711,
+      "elevation_difference": 0.8,
+      "moving_time": 711,
+      "split": 3,
+      "average_speed": 2.26,
+      "average_grade_adjusted_speed": 2.28,
+      "average_heartrate": 161.56962025316454,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.4,
+      "elapsed_time": 719,
+      "elevation_difference": 1.0,
+      "moving_time": 707,
+      "split": 4,
+      "average_speed": 2.28,
+      "average_grade_adjusted_speed": 2.29,
+      "average_heartrate": 162.11898016997168,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1610.8,
+      "elapsed_time": 700,
+      "elevation_difference": 0.4,
+      "moving_time": 700,
+      "split": 5,
+      "average_speed": 2.3,
+      "average_grade_adjusted_speed": 2.31,
+      "average_heartrate": 162.99142857142857,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1608.0,
+      "elapsed_time": 701,
+      "elevation_difference": 0.0,
+      "moving_time": 701,
+      "split": 6,
+      "average_speed": 2.29,
+      "average_grade_adjusted_speed": 2.31,
+      "average_heartrate": 162.90544412607449,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.4,
+      "elapsed_time": 733,
+      "elevation_difference": -1.6,
+      "moving_time": 699,
+      "split": 7,
+      "average_speed": 2.3,
+      "average_grade_adjusted_speed": 2.32,
+      "average_heartrate": 163.88698140200287,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1610.9,
+      "elapsed_time": 698,
+      "elevation_difference": 1.4,
+      "moving_time": 698,
+      "split": 8,
+      "average_speed": 2.31,
+      "average_grade_adjusted_speed": 2.33,
+      "average_heartrate": 167.32137733142036,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1608.5,
+      "elapsed_time": 678,
+      "elevation_difference": 2.2,
+      "moving_time": 678,
+      "split": 9,
+      "average_speed": 2.37,
+      "average_grade_adjusted_speed": 2.4,
+      "average_heartrate": 167.03834808259586,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.1,
+      "elapsed_time": 670,
+      "elevation_difference": -1.4,
+      "moving_time": 670,
+      "split": 10,
+      "average_speed": 2.4,
+      "average_grade_adjusted_speed": 2.42,
+      "average_heartrate": 172.0165165165165,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1610.4,
+      "elapsed_time": 691,
+      "elevation_difference": -1.2,
+      "moving_time": 681,
+      "split": 11,
+      "average_speed": 2.36,
+      "average_grade_adjusted_speed": 2.38,
+      "average_heartrate": 174.00442477876106,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1607.5,
+      "elapsed_time": 662,
+      "elevation_difference": 0.8,
+      "moving_time": 659,
+      "split": 12,
+      "average_speed": 2.44,
+      "average_grade_adjusted_speed": 2.46,
+      "average_heartrate": 173.2914110429448,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.3,
+      "elapsed_time": 598,
+      "elevation_difference": -1.6,
+      "moving_time": 598,
+      "split": 13,
+      "average_speed": 2.69,
+      "average_grade_adjusted_speed": 2.71,
+      "average_heartrate": 179.4314381270903,
+      "pace_zone": 0
+    },
+    {
+      "distance": 550.5,
+      "elapsed_time": 429,
+      "elevation_difference": -1.2,
+      "moving_time": 290,
+      "split": 14,
+      "average_speed": 1.9,
+      "average_grade_adjusted_speed": 1.9,
+      "average_heartrate": 174.8409090909091,
+      "pace_zone": 0
+    }
+  ],
+  "laps": [
+    {
+      "id": 64315270974,
+      "resource_state": 2,
+      "name": "Lap 1",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 430,
+      "moving_time": 430,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 1000.0,
+      "average_speed": 2.33,
+      "max_speed": 2.92,
+      "lap_index": 1,
+      "split": 1,
+      "start_index": 0,
+      "end_index": 395,
+      "total_elevation_gain": 2.2,
+      "average_cadence": 85.4,
+      "device_watts": true,
+      "average_watts": 256.0,
+      "average_heartrate": 154.3,
+      "max_heartrate": 160.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315270982,
+      "resource_state": 2,
+      "name": "Lap 2",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 432,
+      "moving_time": 432,
+      "start_date": "2026-04-04T20:44:00Z",
+      "start_date_local": "2026-04-05T04:44:00Z",
+      "distance": 1000.0,
+      "average_speed": 2.31,
+      "max_speed": 3.08,
+      "lap_index": 2,
+      "split": 2,
+      "start_index": 396,
+      "end_index": 828,
+      "total_elevation_gain": 11.6,
+      "average_cadence": 84.7,
+      "device_watts": true,
+      "average_watts": 258.8,
+      "average_heartrate": 159.6,
+      "max_heartrate": 167.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315270988,
+      "resource_state": 2,
+      "name": "Lap 3",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 441,
+      "moving_time": 441,
+      "start_date": "2026-04-04T20:51:13Z",
+      "start_date_local": "2026-04-05T04:51:13Z",
+      "distance": 1000.0,
+      "average_speed": 2.27,
+      "max_speed": 3.0,
+      "lap_index": 3,
+      "split": 3,
+      "start_index": 829,
+      "end_index": 1269,
+      "total_elevation_gain": 1.0,
+      "average_cadence": 84.9,
+      "device_watts": true,
+      "average_watts": 243.2,
+      "average_heartrate": 162.1,
+      "max_heartrate": 169.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315270994,
+      "resource_state": 2,
+      "name": "Lap 4",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 438,
+      "moving_time": 438,
+      "start_date": "2026-04-04T20:58:34Z",
+      "start_date_local": "2026-04-05T04:58:34Z",
+      "distance": 1000.0,
+      "average_speed": 2.28,
+      "max_speed": 2.72,
+      "lap_index": 4,
+      "split": 4,
+      "start_index": 1270,
+      "end_index": 1708,
+      "total_elevation_gain": 2.8,
+      "average_cadence": 85.6,
+      "device_watts": true,
+      "average_watts": 251.4,
+      "average_heartrate": 160.3,
+      "max_heartrate": 165.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271002,
+      "resource_state": 2,
+      "name": "Lap 5",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 444,
+      "moving_time": 444,
+      "start_date": "2026-04-04T21:05:53Z",
+      "start_date_local": "2026-04-05T05:05:53Z",
+      "distance": 1000.0,
+      "average_speed": 2.25,
+      "max_speed": 2.68,
+      "lap_index": 5,
+      "split": 5,
+      "start_index": 1709,
+      "end_index": 2152,
+      "total_elevation_gain": 6.4,
+      "average_cadence": 85.9,
+      "device_watts": true,
+      "average_watts": 249.2,
+      "average_heartrate": 162.4,
+      "max_heartrate": 166.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271012,
+      "resource_state": 2,
+      "name": "Lap 6",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 457,
+      "moving_time": 457,
+      "start_date": "2026-04-04T21:13:17Z",
+      "start_date_local": "2026-04-05T05:13:17Z",
+      "distance": 1000.0,
+      "average_speed": 2.19,
+      "max_speed": 2.88,
+      "lap_index": 6,
+      "split": 6,
+      "start_index": 2153,
+      "end_index": 2610,
+      "total_elevation_gain": 3.0,
+      "average_cadence": 85.4,
+      "device_watts": true,
+      "average_watts": 241.0,
+      "average_heartrate": 161.4,
+      "max_heartrate": 167.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271022,
+      "resource_state": 2,
+      "name": "Lap 7",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 428,
+      "moving_time": 428,
+      "start_date": "2026-04-04T21:20:55Z",
+      "start_date_local": "2026-04-05T05:20:55Z",
+      "distance": 1000.0,
+      "average_speed": 2.34,
+      "max_speed": 3.14,
+      "lap_index": 7,
+      "split": 7,
+      "start_index": 2611,
+      "end_index": 3038,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 249.3,
+      "average_heartrate": 164.5,
+      "max_heartrate": 167.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271027,
+      "resource_state": 2,
+      "name": "Lap 8",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 437,
+      "moving_time": 437,
+      "start_date": "2026-04-04T21:28:03Z",
+      "start_date_local": "2026-04-05T05:28:03Z",
+      "distance": 1000.0,
+      "average_speed": 2.29,
+      "max_speed": 2.96,
+      "lap_index": 8,
+      "split": 8,
+      "start_index": 3039,
+      "end_index": 3475,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 247.6,
+      "average_heartrate": 161.8,
+      "max_heartrate": 166.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271034,
+      "resource_state": 2,
+      "name": "Lap 9",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 434,
+      "moving_time": 434,
+      "start_date": "2026-04-04T21:35:20Z",
+      "start_date_local": "2026-04-05T05:35:20Z",
+      "distance": 1000.0,
+      "average_speed": 2.3,
+      "max_speed": 3.1,
+      "lap_index": 9,
+      "split": 9,
+      "start_index": 3476,
+      "end_index": 3910,
+      "total_elevation_gain": 2.6,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 250.8,
+      "average_heartrate": 163.3,
+      "max_heartrate": 169.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271042,
+      "resource_state": 2,
+      "name": "Lap 10",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 445,
+      "moving_time": 445,
+      "start_date": "2026-04-04T21:42:35Z",
+      "start_date_local": "2026-04-05T05:42:35Z",
+      "distance": 1000.0,
+      "average_speed": 2.25,
+      "max_speed": 4.0,
+      "lap_index": 10,
+      "split": 10,
+      "start_index": 3911,
+      "end_index": 4356,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.5,
+      "device_watts": true,
+      "average_watts": 242.9,
+      "average_heartrate": 162.4,
+      "max_heartrate": 166.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271050,
+      "resource_state": 2,
+      "name": "Lap 11",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 461,
+      "moving_time": 461,
+      "start_date": "2026-04-04T21:50:01Z",
+      "start_date_local": "2026-04-05T05:50:01Z",
+      "distance": 1000.0,
+      "average_speed": 2.17,
+      "max_speed": 2.8,
+      "lap_index": 11,
+      "split": 11,
+      "start_index": 4357,
+      "end_index": 4818,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.2,
+      "device_watts": true,
+      "average_watts": 244.5,
+      "average_heartrate": 163.6,
+      "max_heartrate": 169.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271056,
+      "resource_state": 2,
+      "name": "Lap 12",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 433,
+      "moving_time": 433,
+      "start_date": "2026-04-04T21:57:43Z",
+      "start_date_local": "2026-04-05T05:57:43Z",
+      "distance": 1000.0,
+      "average_speed": 2.31,
+      "max_speed": 2.88,
+      "lap_index": 12,
+      "split": 12,
+      "start_index": 4819,
+      "end_index": 5251,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.3,
+      "device_watts": true,
+      "average_watts": 246.8,
+      "average_heartrate": 168.1,
+      "max_heartrate": 172.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271064,
+      "resource_state": 2,
+      "name": "Lap 13",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 427,
+      "moving_time": 427,
+      "start_date": "2026-04-04T22:04:56Z",
+      "start_date_local": "2026-04-05T06:04:56Z",
+      "distance": 1000.0,
+      "average_speed": 2.34,
+      "max_speed": 2.82,
+      "lap_index": 13,
+      "split": 13,
+      "start_index": 5252,
+      "end_index": 5678,
+      "total_elevation_gain": 3.4,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 253.8,
+      "average_heartrate": 166.8,
+      "max_heartrate": 170.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271073,
+      "resource_state": 2,
+      "name": "Lap 14",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 427,
+      "moving_time": 427,
+      "start_date": "2026-04-04T22:12:03Z",
+      "start_date_local": "2026-04-05T06:12:03Z",
+      "distance": 1000.0,
+      "average_speed": 2.34,
+      "max_speed": 2.76,
+      "lap_index": 14,
+      "split": 14,
+      "start_index": 5679,
+      "end_index": 6106,
+      "total_elevation_gain": 2.4,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 252.0,
+      "average_heartrate": 166.7,
+      "max_heartrate": 171.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271081,
+      "resource_state": 2,
+      "name": "Lap 15",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 414,
+      "moving_time": 414,
+      "start_date": "2026-04-04T22:19:11Z",
+      "start_date_local": "2026-04-05T06:19:11Z",
+      "distance": 1000.0,
+      "average_speed": 2.42,
+      "max_speed": 3.84,
+      "lap_index": 15,
+      "split": 15,
+      "start_index": 6107,
+      "end_index": 6520,
+      "total_elevation_gain": 3.8,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 257.8,
+      "average_heartrate": 169.1,
+      "max_heartrate": 174.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271088,
+      "resource_state": 2,
+      "name": "Lap 16",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 416,
+      "moving_time": 416,
+      "start_date": "2026-04-04T22:26:05Z",
+      "start_date_local": "2026-04-05T06:26:05Z",
+      "distance": 1000.0,
+      "average_speed": 2.4,
+      "max_speed": 3.18,
+      "lap_index": 16,
+      "split": 16,
+      "start_index": 6521,
+      "end_index": 6937,
+      "total_elevation_gain": 2.4,
+      "average_cadence": 85.9,
+      "device_watts": true,
+      "average_watts": 256.9,
+      "average_heartrate": 172.2,
+      "max_heartrate": 179.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271095,
+      "resource_state": 2,
+      "name": "Lap 17",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 415,
+      "moving_time": 415,
+      "start_date": "2026-04-04T22:33:02Z",
+      "start_date_local": "2026-04-05T06:33:02Z",
+      "distance": 1000.0,
+      "average_speed": 2.41,
+      "max_speed": 2.82,
+      "lap_index": 17,
+      "split": 17,
+      "start_index": 6938,
+      "end_index": 7353,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.6,
+      "device_watts": true,
+      "average_watts": 259.9,
+      "average_heartrate": 174.4,
+      "max_heartrate": 180.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271102,
+      "resource_state": 2,
+      "name": "Lap 18",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 432,
+      "moving_time": 432,
+      "start_date": "2026-04-04T22:39:58Z",
+      "start_date_local": "2026-04-05T06:39:58Z",
+      "distance": 1000.0,
+      "average_speed": 2.31,
+      "max_speed": 4.14,
+      "lap_index": 18,
+      "split": 18,
+      "start_index": 7354,
+      "end_index": 7785,
+      "total_elevation_gain": 2.6,
+      "average_cadence": 85.8,
+      "device_watts": true,
+      "average_watts": 256.5,
+      "average_heartrate": 173.1,
+      "max_heartrate": 178.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271107,
+      "resource_state": 2,
+      "name": "Lap 19",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 414,
+      "moving_time": 414,
+      "start_date": "2026-04-04T22:47:10Z",
+      "start_date_local": "2026-04-05T06:47:10Z",
+      "distance": 1000.0,
+      "average_speed": 2.42,
+      "max_speed": 3.06,
+      "lap_index": 19,
+      "split": 19,
+      "start_index": 7786,
+      "end_index": 8200,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.5,
+      "device_watts": true,
+      "average_watts": 253.7,
+      "average_heartrate": 173.5,
+      "max_heartrate": 177.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271113,
+      "resource_state": 2,
+      "name": "Lap 20",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 385,
+      "moving_time": 385,
+      "start_date": "2026-04-04T22:54:05Z",
+      "start_date_local": "2026-04-05T06:54:05Z",
+      "distance": 1000.0,
+      "average_speed": 2.6,
+      "max_speed": 4.32,
+      "lap_index": 20,
+      "split": 20,
+      "start_index": 8201,
+      "end_index": 8585,
+      "total_elevation_gain": 6.0,
+      "average_cadence": 86.8,
+      "device_watts": true,
+      "average_watts": 291.0,
+      "average_heartrate": 175.8,
+      "max_heartrate": 183.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271119,
+      "resource_state": 2,
+      "name": "Lap 21",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 361,
+      "moving_time": 361,
+      "start_date": "2026-04-04T23:00:30Z",
+      "start_date_local": "2026-04-05T07:00:30Z",
+      "distance": 1000.0,
+      "average_speed": 2.77,
+      "max_speed": 4.3,
+      "lap_index": 21,
+      "split": 21,
+      "start_index": 8586,
+      "end_index": 8947,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 86.0,
+      "device_watts": true,
+      "average_watts": 291.6,
+      "average_heartrate": 182.0,
+      "max_heartrate": 189.0,
+      "pace_zone": 0
+    },
+    {
+      "id": 64315271126,
+      "resource_state": 2,
+      "name": "Lap 22",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 407,
+      "moving_time": 407,
+      "start_date": "2026-04-04T23:06:32Z",
+      "start_date_local": "2026-04-05T07:06:32Z",
+      "distance": 472.06,
+      "average_speed": 1.16,
+      "max_speed": 3.6,
+      "lap_index": 22,
+      "split": 22,
+      "start_index": 8948,
+      "end_index": 8951,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 67.2,
+      "device_watts": true,
+      "average_watts": 144.7,
+      "average_heartrate": 173.8,
+      "max_heartrate": 189.0,
+      "pace_zone": 0
+    }
+  ],
+  "best_efforts": [
+    {
+      "id": 75573379392,
+      "resource_state": 2,
+      "name": "400m",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 136,
+      "moving_time": 136,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 400,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 8923,
+      "end_index": 9059
+    },
+    {
+      "id": 75573379393,
+      "resource_state": 2,
+      "name": "1/2 mile",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 285,
+      "moving_time": 285,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 805,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 8696,
+      "end_index": 8981
+    },
+    {
+      "id": 75573379394,
+      "resource_state": 2,
+      "name": "1K",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 357,
+      "moving_time": 357,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 1000,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 8691,
+      "end_index": 9048
+    },
+    {
+      "id": 75573379384,
+      "resource_state": 2,
+      "name": "1 mile",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 587,
+      "moving_time": 587,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 1609,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 8442,
+      "end_index": 9029
+    },
+    {
+      "id": 75573379385,
+      "resource_state": 2,
+      "name": "2 mile",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1242,
+      "moving_time": 1242,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 3219,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 7814,
+      "end_index": 9056
+    },
+    {
+      "id": 75573379386,
+      "resource_state": 2,
+      "name": "5K",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 1997,
+      "moving_time": 1997,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 5000,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 7062,
+      "end_index": 9059
+    },
+    {
+      "id": 75573379387,
+      "resource_state": 2,
+      "name": "10K",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 4118,
+      "moving_time": 4118,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 10000,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 4942,
+      "end_index": 9060
+    },
+    {
+      "id": 75573379388,
+      "resource_state": 2,
+      "name": "15K",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 6325,
+      "moving_time": 6325,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 15000,
+      "pr_rank": 3,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 3
+        }
+      ],
+      "start_index": 2732,
+      "end_index": 9057
+    },
+    {
+      "id": 75573379389,
+      "resource_state": 2,
+      "name": "10 mile",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 6817,
+      "moving_time": 6817,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 16090,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "start_index": 2241,
+      "end_index": 9058
+    },
+    {
+      "id": 75573379390,
+      "resource_state": 2,
+      "name": "20K",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 8538,
+      "moving_time": 8538,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 20000,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "start_index": 521,
+      "end_index": 9059
+    },
+    {
+      "id": 75573379391,
+      "resource_state": 2,
+      "name": "Half-Marathon",
+      "activity": {
+        "id": 17980873447,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 92653540,
+        "resource_state": 1
+      },
+      "elapsed_time": 9010,
+      "moving_time": 9010,
+      "start_date": "2026-04-04T20:36:49Z",
+      "start_date_local": "2026-04-05T04:36:49Z",
+      "distance": 21097,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "start_index": 47,
+      "end_index": 9057
+    }
+  ],
+  "gear": {
+    "id": "g21825498",
+    "primary": false,
+    "name": "HOKA Mach X2 ishowspeed ",
+    "nickname": "ishowspeed ",
+    "resource_state": 2,
+    "retired": false,
+    "distance": 228093,
+    "converted_distance": 228.1
+  },
+  "photos": {
+    "primary": null,
+    "count": 0
+  },
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "hide_from_home": false,
+  "embed_token": "862f50f229d79bb25dbef0aa455f9e6630c3abd9",
+  "similar_activities": {
+    "effort_count": 1,
+    "average_speed": 2.336024371667936,
+    "min_average_speed": 2.336024371667936,
+    "mid_average_speed": 2.336024371667936,
+    "max_average_speed": 2.336024371667936,
+    "pr_rank": null,
+    "frequency_milestone": null,
+    "trend": {
+      "speeds": [
+        2.336024371667936
+      ],
+      "current_activity_index": 0,
+      "min_speed": 2.336024371667936,
+      "mid_speed": 2.336024371667936,
+      "max_speed": 2.336024371667936,
+      "direction": 0
+    },
+    "resource_state": 2
+  },
+  "available_zones": []
+}
