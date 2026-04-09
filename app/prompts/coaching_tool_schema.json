@@ -39,20 +39,20 @@
           "run_summary": {
             "type": "string",
             "minLength": 30,
-            "maxLength": 600,
-            "description": "Factual recap of the run: distance, pace, HR distribution, elevation, anything notable. 2–4 sentences. Plain text, no markdown."
+            "maxLength": 900,
+            "description": "Factual recap of the run: distance, pace, HR distribution, elevation, anything notable. 2–5 sentences. Plain text, no markdown."
           },
           "went_well": {
             "type": "string",
             "minLength": 20,
-            "maxLength": 500,
-            "description": "What the runner did well. Pacing, HR control, executing the planned workout, building from a previous run, etc. 2–4 sentences. Plain text."
+            "maxLength": 900,
+            "description": "What the runner did well. Pacing, HR control, executing the planned workout, building from a previous run, etc. 2–5 sentences. Plain text."
           },
           "to_watch": {
             "type": "string",
             "minLength": 20,
-            "maxLength": 500,
-            "description": "Concerns: fatigue accumulation, HR drift, positive splits, overreach signals, injury risk indicators. 2–4 sentences. If there are no concerns, write a short 'nothing to flag' note. Plain text."
+            "maxLength": 900,
+            "description": "Concerns: fatigue accumulation, HR drift, positive splits, overreach signals, injury risk indicators. 2–5 sentences. If there are no concerns, write a short 'nothing to flag' note. Plain text."
           },
           "digest": {
             "type": "string",
@@ -116,8 +116,8 @@
           },
           "target_hr_zone": {
             "type": "string",
-            "enum": ["Z1", "Z2", "Z3", "Z4", "Z5", "Z2-Z3", "Z3-Z4", "Z4-Z5"],
-            "description": "Target HR zone for the main effort. Use a range (e.g. 'Z2-Z3') if the workout spans zones."
+            "pattern": "^Z[1-5](-Z[1-5])?$",
+            "description": "Target HR zone for the main effort. Single zone (e.g. 'Z2') or a range (e.g. 'Z2-Z3', 'Z1-Z2', 'Z3-Z5'). Z1 is recovery, Z5 is VO2max. Use a range only when the workout legitimately spans zones."
           },
           "workout": {
             "type": "object",
@@ -126,26 +126,26 @@
             "properties": {
               "warmup": {
                 "type": "string",
-                "maxLength": 120,
+                "maxLength": 200,
                 "description": "Warmup description. e.g. '2km easy @ 6:00/km'. Empty string for easy/recovery runs that have no structured warmup."
               },
               "main": {
                 "type": "string",
                 "minLength": 5,
-                "maxLength": 250,
-                "description": "Main effort description. e.g. '6×800m @ 4:00/km w/ 90s jog rest' or '8km easy @ 5:45–6:00/km, Z2'."
+                "maxLength": 500,
+                "description": "Main effort description. e.g. '6×800m @ 4:00/km w/ 90s jog rest' or '8km easy @ 5:45–6:00/km, Z2'. Complex sessions like progression runs or fartleks may be longer."
               },
               "cooldown": {
                 "type": "string",
-                "maxLength": 120,
+                "maxLength": 200,
                 "description": "Cooldown description. e.g. '2km easy @ 6:00/km'. Empty string for easy/recovery runs."
               }
             }
           },
           "notes": {
             "type": "string",
-            "maxLength": 200,
-            "description": "Optional freeform note. Use to acknowledge an injury, recent fatigue, or other context that influenced the recommendation. Empty string if not needed."
+            "maxLength": 600,
+            "description": "Optional freeform note (≤600 chars, 1–4 sentences). Use to explain the reasoning behind the recommendation, acknowledge an injury, flag recent fatigue, or note how this session fits the weekly budget. Empty string if nothing to add."
           }
         }
       }
