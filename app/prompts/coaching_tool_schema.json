@@ -26,10 +26,10 @@
         "type": "array",
         "items": {
           "type": "string",
-          "maxLength": 60
+          "maxLength": 120
         },
         "maxItems": 6,
-        "description": "Short concern strings worth flagging. Empty array if nothing notable. Examples: 'high cardiac drift', 'pace fade km6+', 'HR ceiling reached', '3rd hard session this week'."
+        "description": "Short concern TAGS (not sentences) — 2-6 words each, ≤120 chars. Empty array if nothing notable. Good: 'high cardiac drift', 'pace fade km6+', '3rd hard session this week'. Bad: full sentences explaining the concern (use to_watch for that)."
       },
       "post_run_review": {
         "type": "object",

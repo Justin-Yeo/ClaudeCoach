@@ -15,7 +15,6 @@ The orchestrator in `app/services/coaching.py` (phase 5) is the only caller of
 
 from __future__ import annotations
 
-import os
 from datetime import date, timedelta
 from typing import Any
 
@@ -303,13 +302,23 @@ async def call_claude_coaching(
         next_available_day=next_available_day,
     )
 
-    model = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
-    max_tokens = int(os.environ.get("CLAUDE_MAX_OUTPUT_TOKENS", "3500"))
-    max_retries = int(os.environ.get("CLAUDE_MAX_RETRIES", "5"))
+    # Read all Claude settings from `app.config.Settings` rather than `os.environ`,
+    # because Pydantic Settings populates the Settings object but does NOT export to
+    # os.environ. Passing api_key explicitly avoids "Could not resolve authentication
+    # method" when the FastAPI process starts without load_dotenv being called.
+    from app.config import get_settings
+
+    settings = get_settings()
+    model = settings.CLAUDE_MODEL
+    max_tokens = settings.CLAUDE_MAX_OUTPUT_TOKENS
+    max_retries = settings.CLAUDE_MAX_RETRIES
 
     # max_retries=5 absorbs transient 529/503 outages and 429 rate-limit blips.
     # The SDK applies exponential backoff between retries.
-    async with AsyncAnthropic(max_retries=max_retries) as client:
+    async with AsyncAnthropic(
+        api_key=settings.ANTHROPIC_API_KEY,
+        max_retries=max_retries,
+    ) as client:
         response = await client.messages.create(
             model=model,
             max_tokens=max_tokens,
