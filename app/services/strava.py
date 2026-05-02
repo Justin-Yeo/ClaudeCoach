@@ -23,8 +23,13 @@ and DM them a reconnect link (see spec.md §3.4 and §11 admin bootstrap).
 from __future__ import annotations
 
 from collections.abc import Callable
+from datetime import UTC, datetime
+from typing import TYPE_CHECKING
 
 import httpx
+
+if TYPE_CHECKING:
+    from app.models.user import User
 
 STRAVA_API_BASE = "https://www.strava.com/api/v3"
 STRAVA_TOKEN_URL = "https://www.strava.com/oauth/token"
@@ -196,3 +201,31 @@ class StravaClient:
 
         if self.on_refresh is not None:
             self.on_refresh(data)
+
+
+def client_for_user(user: User) -> StravaClient:
+    """Build a `StravaClient` from a `User` ORM row.
+
+    The `on_refresh` callback writes the rotated tokens straight back to the
+    user attributes — but does NOT commit. The caller is responsible for the
+    DB transaction.
+
+    `STRAVA_CLIENT_ID` and `STRAVA_CLIENT_SECRET` are read from `app.config`.
+    """
+    # Local import keeps this module free of pydantic_settings at import time.
+    from app.config import get_settings
+
+    settings = get_settings()
+
+    def on_refresh(data: dict) -> None:
+        user.strava_access_token = data["access_token"]
+        user.strava_refresh_token = data["refresh_token"]
+        user.strava_token_expires_at = datetime.fromtimestamp(data["expires_at"], tz=UTC)
+
+    return StravaClient(
+        client_id=settings.STRAVA_CLIENT_ID,
+        client_secret=settings.STRAVA_CLIENT_SECRET,
+        access_token=user.strava_access_token,
+        refresh_token=user.strava_refresh_token,
+        on_refresh=on_refresh,
+    )
