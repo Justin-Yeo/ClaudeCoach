@@ -56,10 +56,18 @@ async def lifespan(app: FastAPI):
     await bot_app.start()
     await bot_app.updater.start_polling()
 
+    # Cache the bot's username so /invite can build t.me/<bot>?start=<code> deep links.
+    me = await bot_app.bot.get_me()
+
     app.state.bot_app = bot_app
     app.state.bot = bot_app.bot
+    app.state.bot_username = me.username
 
-    log.info("ClaudeCoach started — bot polling, FastAPI serving %s", settings.APP_BASE_URL)
+    log.info(
+        "ClaudeCoach started — bot=@%s polling, FastAPI serving %s",
+        me.username,
+        settings.APP_BASE_URL,
+    )
 
     try:
         yield
