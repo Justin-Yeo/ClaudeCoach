@@ -22,6 +22,7 @@ and DM them a reconnect link (see spec.md §3.4 and §11 admin bootstrap).
 
 from __future__ import annotations
 
+import urllib.parse
 from collections.abc import Callable
 from datetime import UTC, datetime
 from typing import TYPE_CHECKING
@@ -30,6 +31,10 @@ import httpx
 
 if TYPE_CHECKING:
     from app.models.user import User
+
+# OAuth scopes we request. `activity:read_all` is needed to read private activities
+# (some users keep their runs private).
+OAUTH_SCOPE = "read,activity:read_all"
 
 STRAVA_API_BASE = "https://www.strava.com/api/v3"
 STRAVA_TOKEN_URL = "https://www.strava.com/oauth/token"
@@ -229,3 +234,63 @@ def client_for_user(user: User) -> StravaClient:
         refresh_token=user.strava_refresh_token,
         on_refresh=on_refresh,
     )
+
+
+# ============================================================================
+# OAuth flow helpers (used by /start and /auth/strava/callback in phase 8)
+# ============================================================================
+
+
+def build_oauth_url(*, client_id: str, redirect_uri: str, state: str) -> str:
+    """Construct the Strava authorisation URL for the OAuth flow.
+
+    `state` is a CSRF-protection token issued by `/start` and validated by the
+    callback. `approval_prompt=force` makes Strava show the authorise screen
+    every time, even for previously approved users (helpful for reconnect).
+    """
+    params = {
+        "client_id": client_id,
+        "redirect_uri": redirect_uri,
+        "response_type": "code",
+        "approval_prompt": "force",
+        "scope": OAUTH_SCOPE,
+        "state": state,
+    }
+    return "https://www.strava.com/oauth/authorize?" + urllib.parse.urlencode(params)
+
+
+async def exchange_code_for_tokens(
+    *,
+    client_id: str,
+    client_secret: str,
+    code: str,
+) -> dict:
+    """Exchange a one-shot Strava OAuth code for access + refresh tokens.
+
+    Returns the full token response as a dict, including:
+        access_token, refresh_token, expires_at (unix seconds),
+        athlete: {id, firstname, lastname, ...}
+
+    Raises `StravaAuthError` if Strava rejects the code (typically because it's
+    expired, already used, or the wrong client_secret).
+    """
+    try:
+        async with httpx.AsyncClient(timeout=30.0) as http:
+            response = await http.post(
+                STRAVA_TOKEN_URL,
+                data={
+                    "client_id": client_id,
+                    "client_secret": client_secret,
+                    "code": code,
+                    "grant_type": "authorization_code",
+                },
+            )
+    except httpx.HTTPError as exc:
+        raise StravaAuthError(f"Network error exchanging code: {exc}") from exc
+
+    if response.status_code != 200:
+        raise StravaAuthError(
+            f"Code exchange failed ({response.status_code}): {response.text[:400]}"
+        )
+
+    return response.json()

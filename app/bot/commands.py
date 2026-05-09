@@ -12,18 +12,20 @@ from __future__ import annotations
 
 import contextlib
 import logging
+import secrets
 from datetime import UTC, datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from sqlalchemy import desc, select
+from sqlalchemy import delete, desc, select
 from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 from app.bot.conversations import build_goal_handler, build_profile_handler
 from app.bot.db_helpers import get_user_by_telegram_id
+from app.config import get_settings
 from app.db import AsyncSessionLocal
-from app.models import Run
+from app.models import InviteCode, OAuthState, Run
 from app.services.claude import call_claude_coaching, compute_next_available_day
 from app.services.coaching import (
     _compute_weekly_volume_done,
@@ -36,6 +38,7 @@ from app.services.coaching import (
     _user_to_dict,
 )
 from app.services.pace import format_pace_min
+from app.services.strava import build_oauth_url
 from app.services.telegram import escape_md_v2, send_next_session
 
 log = logging.getLogger(__name__)
@@ -59,17 +62,86 @@ HELP_LINES: list[tuple[str, str]] = [
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Phase 3 stub. Phase 8 replaces with invite-code + OAuth onboarding."""
-    user = update.effective_user
-    args_str = " ".join(context.args) if context.args else "(no args)"
+    """Onboarding entry point. Three valid paths:
 
-    msg = (
-        f"Hello {escape_md_v2(user.first_name or 'runner')}\\!\n\n"
-        f"You sent `/start` with args: `{escape_md_v2(args_str)}`\n\n"
-        f"Your Telegram user id: `{user.id}`\n\n"
-        "_Phase 8 will replace this stub with the full invite\\-code \\+ Strava OAuth flow\\._"
+    1. Existing user → reconnect Strava (no invite needed)
+    2. Admin (matches BOOTSTRAP_ADMIN_TELEGRAM_USER_ID) → bootstrap (no invite needed)
+    3. Friend with /start <code> → validate invite code
+
+    All three converge on the same OAuth flow: generate a state token, persist
+    it with the telegram_user_id (and invite_code if applicable), and reply
+    with the Strava authorisation URL. The /auth/strava/callback route does
+    the rest atomically.
+    """
+    settings = get_settings()
+    user_id = update.effective_user.id
+    args = context.args or []
+    code = args[0].strip() if args else None
+
+    async with AsyncSessionLocal() as session:
+        existing_user = await get_user_by_telegram_id(session, user_id)
+        is_admin = user_id == settings.BOOTSTRAP_ADMIN_TELEGRAM_USER_ID
+
+        invite_code_str: str | None
+        if existing_user is not None:
+            # Reconnect path — bypass invite check
+            invite_code_str = None
+        elif is_admin:
+            # Admin bootstrap — bypass invite check
+            invite_code_str = None
+        elif code:
+            # Friend with invite code — validate it
+            invite = await session.scalar(select(InviteCode).where(InviteCode.code == code))
+            now = datetime.now(UTC)
+            invalid = (
+                invite is None
+                or invite.used_by is not None
+                or (invite.expires_at is not None and invite.expires_at < now)
+            )
+            if invalid:
+                await _send_plain(
+                    update,
+                    "Invalid or used invite code. Check the code and try again.",
+                )
+                return
+            invite_code_str = code
+        else:
+            await _send_plain(
+                update,
+                "You need an invite code to use this bot.\n\n"
+                "Ask the admin for one, then run: /start <code>",
+            )
+            return
+
+        # Cleanup: drop any in-progress oauth_states for this telegram_user_id.
+        # Covers expired rows and the case where the user re-runs /start mid-flow.
+        await session.execute(delete(OAuthState).where(OAuthState.telegram_user_id == user_id))
+
+        # Generate the new one-shot state token and persist it.
+        state_token = secrets.token_urlsafe(24)
+        session.add(
+            OAuthState(
+                state=state_token,
+                telegram_user_id=user_id,
+                invite_code=invite_code_str,
+                expires_at=datetime.now(UTC) + timedelta(minutes=5),
+            )
+        )
+        await session.commit()
+
+    # Build the Strava OAuth URL and reply.
+    redirect_uri = f"{settings.APP_BASE_URL.rstrip('/')}/auth/strava/callback"
+    oauth_url = build_oauth_url(
+        client_id=settings.STRAVA_CLIENT_ID,
+        redirect_uri=redirect_uri,
+        state=state_token,
     )
-    await update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN_V2)
+
+    intro = "Reconnect Strava" if existing_user is not None else "Welcome! Connect Strava"
+    await _send_plain(
+        update,
+        f"{intro}: {oauth_url}\n\nLink expires in 5 minutes.",
+    )
 
 
 # ----------------------------------------------------------------- /help
@@ -122,6 +194,38 @@ def _fmt_duration(secs: int) -> str:
     if h:
         return f"{h}:{m:02d}:{s:02d}"
     return f"{m}:{s:02d}"
+
+
+# ----------------------------------------------------------------- /invite (admin only)
+
+
+async def invite_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Generate a single-use invite code. Admin only.
+
+    The reply includes both the raw code and a `t.me/<bot>?start=<code>` deep
+    link — when the friend taps that link in Telegram, the bot opens with
+    `/start <code>` already filled in.
+    """
+    user_id = update.effective_user.id
+
+    async with AsyncSessionLocal() as session:
+        user = await get_user_by_telegram_id(session, user_id)
+        if user is None or not user.is_admin:
+            await _send_plain(update, "Admin only.")
+            return
+
+        code = secrets.token_urlsafe(9)  # ~12 URL-safe chars
+        session.add(InviteCode(code=code, created_by=user.id))
+        await session.commit()
+
+    # `context.bot.username` is cached on the Bot object after Application.initialize().
+    bot_username = context.bot.username or "your_bot"
+    deep_link = f"https://t.me/{bot_username}?start={code}"
+
+    await _send_plain(
+        update,
+        f"Invite code: {code}\n\nShare this link to onboard a friend:\n{deep_link}",
+    )
 
 
 # ----------------------------------------------------------------- /injury
@@ -417,5 +521,8 @@ def register_handlers(app: Application) -> None:
     app.add_handler(CommandHandler("plan", plan_command))
     app.add_handler(CommandHandler("status", status_command))
     app.add_handler(CommandHandler("injury", injury_command))
+
+    # Phase 8 admin command (deliberately not in BotFather menu — see spec.md §11.20)
+    app.add_handler(CommandHandler("invite", invite_command))
 
     log.info("registered telegram bot handlers")
