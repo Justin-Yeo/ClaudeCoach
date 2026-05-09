@@ -382,11 +382,36 @@ async def _profile_injury(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     except ValueError as exc:
         return await _retry(update, context, "profile_retries", str(exc), ProfileState.INJURY)
     context.user_data["profile_draft"]["current_injury"] = injury
-    # Commit
-    context.user_data["profile"] = context.user_data.pop("profile_draft")
+
+    # Persist to DB
+    from app.bot.db_helpers import get_user_by_telegram_id
+    from app.db import AsyncSessionLocal
+
+    p = context.user_data["profile_draft"]
+    async with AsyncSessionLocal() as session:
+        user = await get_user_by_telegram_id(session, update.effective_user.id)
+        if user is None:
+            await _send(update, "You're not registered. Use /start <code> first.")
+            context.user_data.pop("profile_draft", None)
+            context.user_data.pop("profile_retries", None)
+            return ConversationHandler.END
+
+        user.age = p["age"]
+        user.weight_kg = p["weight_kg"]
+        user.max_hr = p["max_hr"]
+        user.hr_zone1_max = p["hr_zone1_max"]
+        user.hr_zone2_max = p["hr_zone2_max"]
+        user.hr_zone3_max = p["hr_zone3_max"]
+        user.hr_zone4_max = p["hr_zone4_max"]
+        user.recent_5k_secs = p.get("recent_5k_secs")
+        user.recent_10k_secs = p.get("recent_10k_secs")
+        user.available_days_json = p["available_days"]
+        user.current_injury = p["current_injury"]
+        await session.commit()
+
+    context.user_data.pop("profile_draft", None)
     context.user_data.pop("profile_retries", None)
 
-    p = context.user_data["profile"]
     summary = (
         "Profile saved.\n\n"
         f"- Age: {p['age']}\n"
@@ -516,7 +541,12 @@ async def _goal_race_target(update: Update, context: ContextTypes.DEFAULT_TYPE) 
 
 
 async def _finalise_goal(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-    """Validate the constraint (≥1 goal set) and commit."""
+    """Validate the constraint (≥1 goal set) and persist to DB."""
+    from datetime import date as _date_cls
+
+    from app.bot.db_helpers import get_user_by_telegram_id
+    from app.db import AsyncSessionLocal
+
     draft = context.user_data.get("goal_draft", {})
     has_weekly = draft.get("weekly_volume_goal_km") is not None
     has_race = draft.get("race_date") is not None
@@ -530,10 +560,25 @@ async def _finalise_goal(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         context.user_data.pop("goal_retries", None)
         return ConversationHandler.END
 
-    context.user_data["goal"] = context.user_data.pop("goal_draft")
+    async with AsyncSessionLocal() as session:
+        user = await get_user_by_telegram_id(session, update.effective_user.id)
+        if user is None:
+            await _send(update, "You're not registered. Use /start <code> first.")
+            context.user_data.pop("goal_draft", None)
+            context.user_data.pop("goal_retries", None)
+            return ConversationHandler.END
+
+        user.weekly_volume_goal_km = draft.get("weekly_volume_goal_km")
+        race_iso = draft.get("race_date")
+        user.race_date = _date_cls.fromisoformat(race_iso) if race_iso else None
+        user.race_distance = draft.get("race_distance")
+        user.race_target_secs = draft.get("race_target_secs")
+        await session.commit()
+
+    g = draft
+    context.user_data.pop("goal_draft", None)
     context.user_data.pop("goal_retries", None)
 
-    g = context.user_data["goal"]
     lines = ["Goals saved.\n"]
     if g.get("weekly_volume_goal_km"):
         lines.append(f"- Weekly volume: {g['weekly_volume_goal_km']} km")
